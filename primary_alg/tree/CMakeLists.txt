@@ -1,0 +1,7 @@
+add_executable(talg1 alg1.cpp)
+add_executable(talg2 alg2.cpp)
+add_executable(talg3 alg3.cpp)
+add_executable(talg4 alg4.cpp)
+add_executable(talg5 alg5.cpp)
+add_executable(talg6 alg6.cpp)
+add_executable(solution94 solution94.cpp)
