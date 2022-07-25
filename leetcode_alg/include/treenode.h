@@ -12,4 +12,13 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
+
+void deleteNode(TreeNode *node){
+    if(node == nullptr){
+        return;
+    }
+    deleteNode(node->left);
+    deleteNode(node->right);
+    delete node;
+}
 #endif //MAC_ALGORITHM_TREENODE_H
