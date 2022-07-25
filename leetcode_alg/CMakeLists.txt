@@ -34,6 +34,7 @@ add_executable(solution34 solution34.cpp)
 add_executable(solution38 solution38.cpp)
 add_executable(solution39 solution39.cpp)
 add_executable(solution40 solution40.cpp)
+add_executable(solution41 solution41.cpp)
 add_executable(solution42 solution42.cpp)
 
 add_executable(solution43 solution43.cpp)
