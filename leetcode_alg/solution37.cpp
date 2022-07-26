@@ -72,11 +72,9 @@ void testSolution() {
                                   {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
 
     s->solveSudoku(board);
-//    if(s->isValid){
     for (vector<char> &v: board) {
         print_vec(v);
     }
-//    }
     delete s;
 }
 
