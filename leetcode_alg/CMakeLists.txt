@@ -62,6 +62,7 @@ add_executable(solution99 solution99.cpp)
 
 add_executable(solution112 solution112.cpp)
 add_executable(solution113 solution113.cpp)
+add_executable(solution116 solution116.cpp)
 add_executable(solution118 solution118.cpp)
 add_executable(solution120 solution120.cpp)
 add_executable(solution129 solution129.cpp)
