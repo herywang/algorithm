@@ -16,6 +16,7 @@ public:
         if (nums.size() < 2) {
             return res;
         }
+
         map<int, int> m;
         int a;
         for (int i = 0; i < nums.size(); i++) {

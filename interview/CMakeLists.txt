@@ -12,6 +12,8 @@ add_executable(tencent-1 tencent-1.cpp)
 add_executable(tencent-2 tencent-2.cpp)
 add_executable(tencent-3 tencent-3.cpp)
 add_executable(tencent-4 tencent-4.cpp)
+add_executable(microsoft2 microsoft2.cpp)
+add_executable(microsoft3 microsoft3.cpp)
 
 
 
