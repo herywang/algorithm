@@ -15,7 +15,8 @@ add_executable(tencent-4 tencent-4.cpp)
 add_executable(microsoft2 microsoft2.cpp)
 add_executable(microsoft3 microsoft3.cpp)
 add_executable(xvchenxi xvchenxi.cpp)
-
+add_executable(huawei2 huawei2.cpp)
+add_executable(huawei3 huawei3.cpp)
 
 
 add_executable(interview-12 interview-12.cpp)
