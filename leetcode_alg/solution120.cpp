@@ -12,11 +12,12 @@ public:
     int minimumTotal(vector<vector<int>> &triangle) {
         int row = triangle.size();
         vector<vector<int>> dp;
-        // 初始化dp数组
+
+        // 初始化dp数组Ò
         int prev1 = 0;
         int prev2 = 0;
         for (int i = 0; i < row; i++) {
-            dp.push_back(vector(i + 1, 0));
+            dp.push_back(vector<int>(i + 1, 0));
             dp[i][0] = prev1 + triangle[i][0];
             dp[i][i] = prev2 + triangle[i][i];
             prev1 = dp[i][0];
@@ -40,17 +41,10 @@ public:
 
 void testSolution() {
     auto s = new Solution;
-    vector<vector<int>> triangle = {
-            {2},
-            {3, 4},
-            {6, 5, 7},
-            {4, 1, 8, 3}
-    };
-    vector<vector<int>> triangle1 = {
-            {-10}
-    };
+    vector<vector<int>> triangle = {{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}};
+    vector<vector<int>> triangle1 = {{-10}};
     int res = s->minimumTotal(triangle1);
-    cout<<res<<endl;
+    cout << res << endl;
     delete s;
 }
 

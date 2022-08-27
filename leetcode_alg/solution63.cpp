@@ -45,11 +45,31 @@ public:
                 }
             }
         }
-
+        // 更新dp数组
+        for (int i = 1; i < row; i++) {
+            for (int j = 1; j < col; j++) {
+                if (obstacleGrid[i][j] == 1) {
+                    dp[i][j] = 0;
+                } else {
+                    dp[i][j] = dp[i][j - 1] + dp[i - 1][j];
+                }
+            }
+        }
+        return dp[row - 1][col - 1];
     }
 };
 
-int main(int argc, char *argv[]) {
+void testSolution() {
+    auto s = new Solution;
+    vector<vector<int>> obstacleGrid = {
+        {0, 0, 0},
+        {0, 1, 0},
+        {0, 0, 0}};
+    cout << s->uniquePathsWithObstacles(obstacleGrid) << endl;
+    delete s;
+}
 
+int main(int argc, char *argv[]) {
+    testSolution();
     return 0;
 }

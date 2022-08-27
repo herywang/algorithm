@@ -22,7 +22,7 @@ public:
     void gameOfLife(vector<vector<int>> &board) {
         int row = board.size();
         int col = board[0].size();
-        vector<vector<int>> copyBoard(row, vector(col, 0));
+        vector<vector<int>> copyBoard(row, vector<int>(col, 0));
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 copyBoard[i][j] = board[i][j];
