@@ -9,7 +9,7 @@ using namespace std;
 class Solution {
 public:
     ListNode *rotateRight(ListNode *head, int k) {
-        if(head == nullptr){
+        if (head == nullptr) {
             return head;
         }
         ListNode *p = head;
@@ -29,7 +29,7 @@ public:
             fast = fast->next;
             k--;
         }
-        while (fast != end){
+        while (fast != end) {
             fast = fast->next;
             slow = slow->next;
         }
@@ -40,7 +40,7 @@ public:
     }
 };
 
-void testSolution(){
+void testSolution() {
     auto s = new Solution;
     ListNode *root = new ListNode(1, new ListNode(2, new ListNode(3,
                                                                   new ListNode(4, new ListNode(5)))));
