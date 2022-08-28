@@ -31,7 +31,7 @@ public:
             cur->next = node;
             cur = node;
         }
-        if(carry == 1){
+        if (carry == 1) {
             cur->next = new ListNode(carry);
         }
         return head->next;
@@ -39,10 +39,9 @@ public:
 };
 
 int main() {
-
     auto s = new Solution;
-    ListNode* l1 = new ListNode(2,new ListNode(4, new ListNode(3)));
-    ListNode* l2 = new ListNode(5,new ListNode(6, new ListNode(4)));
+    ListNode *l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+    ListNode *l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
     ListNode *res = s->addTwoNumbers(l1, l2);
     print_list(res);
     return 0;

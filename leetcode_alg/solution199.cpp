@@ -5,17 +5,9 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include "treenode.h"
 
 using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 
 class Solution {
 public:
@@ -51,7 +43,7 @@ int main() {
     TreeNode *root = new TreeNode(1, new TreeNode(2, nullptr, new TreeNode(5)),
                                   new TreeNode(3, nullptr, new TreeNode(4)));
     vector<int> res = s->rightSideView(root);
-    for (int a: res) {
+    for (int a : res) {
         cout << a << " ";
     }
     cout << endl;
