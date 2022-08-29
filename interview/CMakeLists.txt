@@ -25,3 +25,7 @@ add_executable(netease1_1 netease1_1.cpp)
 add_executable(netease2 netease2.cpp)
 
 add_executable(interview-12 interview-12.cpp)
+
+add_executable(redbook redbook.cpp)
+add_executable(redbook1 redbook1.cpp)
+add_executable(redbook3 redbook3.cpp)

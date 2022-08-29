@@ -1,12 +1,13 @@
 include_directories(include)
 
-add_executable(solution6 solution6.cpp)
 
 add_executable(solution1 solution1.cpp)
 add_executable(solution2 solution2.cpp)
 add_executable(solution3 solution3.cpp)
 add_executable(solution4 solution4.cpp)
 add_executable(solution5 solution5.cpp)
+add_executable(solution6 solution6.cpp)
+add_executable(solution7 solution7.cpp)
 add_executable(solution8 solution8.cpp)
 add_executable(solution9 solution9.cpp)
 add_executable(solution11 solution11.cpp)
@@ -83,6 +84,7 @@ add_executable(solution129 solution129.cpp)
 add_executable(solution139 solution139.cpp)
 add_executable(solution142 solution142.cpp)
 add_executable(solution143 solution143.cpp)
+add_executable(solution146 solution146.cpp)
 add_executable(solution150 solution150.cpp)
 add_executable(solution151 solution151.cpp)
 
