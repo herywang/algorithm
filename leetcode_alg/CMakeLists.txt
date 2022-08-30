@@ -85,6 +85,7 @@ add_executable(solution139 solution139.cpp)
 add_executable(solution142 solution142.cpp)
 add_executable(solution143 solution143.cpp)
 add_executable(solution146 solution146.cpp)
+add_executable(solution147 solution147.cpp)
 add_executable(solution150 solution150.cpp)
 add_executable(solution151 solution151.cpp)
 
