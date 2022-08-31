@@ -64,6 +64,7 @@ add_executable(solution84_bak solution84_bak.cpp)
 
 
 add_executable(solution90 solution90.cpp)
+add_executable(solution91 solution91.cpp)
 add_executable(solution92 solution92.cpp)
 add_executable(solution95 solution95.cpp)
 add_executable(solution96 solution96.cpp)
