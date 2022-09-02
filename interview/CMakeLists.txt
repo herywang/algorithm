@@ -29,3 +29,5 @@ add_executable(interview-12 interview-12.cpp)
 add_executable(redbook redbook.cpp)
 add_executable(redbook1 redbook1.cpp)
 add_executable(redbook3 redbook3.cpp)
+
+add_executable(duxiaoman1 duxiaoman1.cpp)
