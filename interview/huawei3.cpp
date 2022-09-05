@@ -19,9 +19,25 @@ struct Tree {
 class Solution {
 public:
     int solution(int N, vector<Tree> &trees) {
-        int maxPosition = trees[N-1].position;
-        int dp[maxPosition+1];
-        memset(dp, 0, sizeof(int)*(maxPosition+1));
+        // dp[i]表示种到第i颗数最大能产生的价值
+        int dp[N + 1];
+        dp[0] = 0;
+        dp[1] = trees[0].value;
+        for (int i = 1; i < N; i++) {
+            // 如果当前数种下, 需要找到满足间隔之前的一棵树产生的价值
+            int j = i - 1;
+            for (; j >= 0; j--) {
+                if (trees[i].position - trees[j].position >= (trees[i].space + trees[j].space)) {
+                    // 满足间隔条件
+                    break;
+                }
+            }
+            int a = dp[j + 1] + trees[i].value;
+            // 如果当前数不种, 则当前位置的最大价值等于前一个种下的树的最大价值
+            int b = dp[i];
+            dp[i + 1] = max(a, b);
+        }
+        return dp[N];
     }
 };
 
@@ -43,7 +59,7 @@ int main(int argc, char *argv[]) {
         cin >> t.value;
     }
     sort(trees.begin(), trees.end(), [](Tree t1, Tree t2) {
-        return t1.position > t2.position;
+        return t1.position < t2.position;
     });
 
     auto s = new Solution;
