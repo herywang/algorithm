@@ -23,8 +23,7 @@ public:
         int n = heights.size();
         for (int i = 1; i < n; i++) {
             // 当前元素比栈顶元素小
-            while ( heights[i] < heights[stack.back()]) {
-
+            while (heights[i] < heights[stack.back()]) {
                 int currentHeight = heights[stack.back()];
                 stack.pop_back();
 
@@ -41,8 +40,8 @@ void testSolution() {
     auto s = new Solution;
     vector<int> heights = {2, 1, 5, 6, 2, 3};
     vector<int> heights2 = {2, 1, 2};
-    vector<int> heights3 = {4,2,0,3,2,5};
-    cout << s->largestRectangleArea(heights3) << endl;
+    vector<int> heights3 = {4, 2, 0, 3, 2, 5};
+    cout << s->largestRectangleArea(heights) << endl;
     delete s;
 }
 

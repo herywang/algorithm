@@ -21,6 +21,10 @@ add_executable(xvchenxi xvchenxi.cpp)
 add_executable(huawei2 huawei2.cpp)
 add_executable(huawei3 huawei3.cpp)
 
+add_executable(huawei_zc huawei_zc.cpp)
+add_executable(huawei_zc2 huawei_zc2.cpp)
+
+add_executable(3601 3601.cpp)
 add_executable(netease1_1 netease1_1.cpp)
 add_executable(netease2 netease2.cpp)
 add_executable(netease_f1 netease_f1.cpp)
