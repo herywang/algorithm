@@ -53,5 +53,10 @@ Mysql中Join本质上是Nested-Loop Join（嵌套循环链接），但他有很�
 ## 存储引擎及存储结构相关面试题
 
 1. InnoDB和MyISAM的区别
-    * InnoDB支持事务, MyISAM不支持
+    * InnoDB支持事务, MyISAM不支持;
+    * InnoDB支持外键, MYISAM不支持;
+    * InnoDB数据和索引文件是绑在一起的, MYISAM索引和数据文件是分开存储的.
+    * InnoDB支持表, 行(默认)级锁, MYISAM仅支持表锁.
+
 2. B+数的深度
+ **3 ~ 5层**

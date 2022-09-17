@@ -22,7 +22,6 @@ int solve(vector<vector<int>> &board, int m, int n) {
         return -1;
     }
     int ans = -1;
-    int dp[m + 1][n + 1];
     vector<vector<int>> dp(m, vector<int>(n, 0));
 
     // 初始化dp数组

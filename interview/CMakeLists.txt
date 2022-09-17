@@ -23,6 +23,7 @@ add_executable(huawei3 huawei3.cpp)
 
 add_executable(huawei_zc huawei_zc.cpp)
 add_executable(huawei_zc2 huawei_zc2.cpp)
+add_executable(huawei_zc3 huawei_zc3.cpp)
 
 add_executable(3601 3601.cpp)
 add_executable(netease1_1 netease1_1.cpp)
@@ -37,3 +38,13 @@ add_executable(redbook1 redbook1.cpp)
 add_executable(redbook3 redbook3.cpp)
 
 add_executable(duxiaoman1 duxiaoman1.cpp)
+
+add_executable(tianyiyun1 tianyiyun1.cpp)
+add_executable(tianyiyun2 tianyiyun2.cpp)
+add_executable(tianyiyun3 tianyiyun3.cpp)
+
+add_executable(tencent-11 tencent-11.cpp)
+add_executable(ponyma1 ponyma1.cpp)
+add_executable(ponyma2 ponyma2.cpp)
+add_executable(ponyma3 ponyma3.cpp)
+add_executable(ponyma4 ponyma4.cpp)
