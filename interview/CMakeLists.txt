@@ -48,3 +48,14 @@ add_executable(ponyma1 ponyma1.cpp)
 add_executable(ponyma2 ponyma2.cpp)
 add_executable(ponyma3 ponyma3.cpp)
 add_executable(ponyma4 ponyma4.cpp)
+
+add_executable(huaweifc1 huaweifc1.cpp)
+
+add_executable(tme2 tme2.cpp)
+
+add_executable(shenxinfu1 shenxinfu1.cpp)
+add_executable(shenxinfu3 shenxinfu3.cpp)
+add_executable(shenxinfu2 shenxinfu2.cpp)
+
+add_executable(tencent11 tencent11.cpp)
+

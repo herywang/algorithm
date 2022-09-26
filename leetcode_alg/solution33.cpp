@@ -26,10 +26,10 @@ public:
         int l;
         int r;
         int mid;
-        if (k == -1){
+        if (k == -1) {
             l = 0;
             r = nums.size();
-        }else if (target <= nums[nums.size() - 1]) {
+        } else if (target <= nums[nums.size() - 1]) {
             // target 在右半部分
             l = k;
             r = nums.size();
@@ -53,12 +53,11 @@ public:
 };
 
 int main() {
-
-    Solution* solution = new Solution;
-//    vector<int> nums = {4,5,6,7,0,1,2};
-    vector<int> nums = {1,3};
+    Solution *solution = new Solution;
+    //    vector<int> nums = {4,5,6,7,0,1,2};
+    vector<int> nums = {1, 3};
     int target = 3;
-    cout<<solution->search(nums, target)<<endl;
-
+    cout << solution->search(nums, target) << endl;
+    delete solution;
     return 0;
 }
