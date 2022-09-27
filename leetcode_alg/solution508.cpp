@@ -14,21 +14,21 @@ public:
     int maxCnt = 0;
     vector<int> findFrequentTreeSum(TreeNode *root) {
         vector<int> ans;
-        if(root == nullptr){
+        if (root == nullptr) {
             return ans;
         }
-        unordered_map<int,int> m;
+        unordered_map<int, int> m;
         dfs(m, root);
-        for(auto &[k, v]:m){
-            if(v == maxCnt){
-                ans.push_back(k);
-            }
-        }
+        // for (auto [k, v] : m) {
+        //     if (v == maxCnt) {
+        //         ans.push_back(k);
+        //     }
+        // }
         return ans;
     }
 
-    int dfs(unordered_map<int, int> &m, TreeNode* root){
-        if(root == nullptr){
+    int dfs(unordered_map<int, int> &m, TreeNode *root) {
+        if (root == nullptr) {
             return 0;
         }
         int res = root->val + dfs(m, root->left) + dfs(m, root->right);
@@ -39,6 +39,5 @@ public:
 };
 
 int main() {
-
     return 0;
 }
