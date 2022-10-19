@@ -51,9 +51,9 @@ bool canPartitionKSubsets(vector<int> &nums, int k) {
     int subSum = sum / k;
     vector<bool> isVisited(nums.size(), false);
     for (int i = 0; i < nums.size(); i++) {
-        if (dfs(nums, i, subSum)) {
-            return true;
-        }
+        // if (dfs(nums, i, subSum)) {
+        //     return true;
+        // }
     }
     return false;
 }

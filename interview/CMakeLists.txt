@@ -59,3 +59,6 @@ add_executable(shenxinfu2 shenxinfu2.cpp)
 
 add_executable(tencent11 tencent11.cpp)
 
+add_executable(tencent-test tencent-test.cpp)
+
+add_executable(thoughtworks thoughtworks.cpp)
