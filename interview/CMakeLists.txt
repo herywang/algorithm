@@ -62,3 +62,10 @@ add_executable(tencent11 tencent11.cpp)
 add_executable(tencent-test tencent-test.cpp)
 
 add_executable(thoughtworks thoughtworks.cpp)
+add_executable(zhongxin zhongxin.cpp)
+add_executable(zhongxin2 zhongxin2.cpp)
+add_executable(zhongxin3 zhongxin3.cpp)
+
+add_executable(maojiahui2 maojiahui2.cpp)
+
+add_executable(zhangchi3 zhangchi3.cpp)
