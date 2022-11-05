@@ -24,6 +24,7 @@ train_dataloader: DataLoader = None
 test_dataloader: DataLoader = None
 
 
+
 class BaseModel(nn.Module):
 
     def training_step(self, batch):
