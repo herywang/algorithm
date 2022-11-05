@@ -4,5 +4,9 @@
         "--style",
         "{column_limit: 200}"
     ],
-    "python.analysis.completeFunctionParens": true
+    "python.analysis.completeFunctionParens": true,
+    "workbench.colorTheme": "Default Light+",
+    "editor.tokenColorCustomizations": {
+        "comments": "#36a205",
+    },
 }
