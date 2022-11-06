@@ -40,9 +40,16 @@ class BaseModel(nn.Module):
         return {'val_loss': loss.detach(), 'val_acc': acc}
 
     def validation_epoch_end(self, outputs):
-        '''
-        '''
         batch_losses = [loss['val_loss'] for loss in outputs]
+        loss = torch.stack(batch_losses)
+        batch_accuracy = [accuracy['val_acc'] for accuracy in outputs]
+        acc = torch.stack(batch_accuracy).mean()
+        return {'val_loss': loss.item(), 'val_acc': acc.item()}
+
+    def epoch_end(self, epoch, result):
+        print("Epoch [{}], last_learning_rate: {:.5f}, train_loss: {:.4f}, val_loss:{:.4f}, val_acc:{:.4f}"
+              .format(epoch, result['lrs'][-1], result['train_loss'], result['val_loss'], result['val_acc'])
+              )
 
 
 class MobileNetV1(nn.Module):
@@ -67,14 +74,36 @@ class MobileNetV1(nn.Module):
                 nn.ReLU6(inplace=True),
             )
 
-        self.model = nn.Sequential()
+        # input image size: (3 32 32)
+        self.model = nn.Sequential(
+            conv_bn(3, 32, 2),# -> (32, 16, 16)
+            conv_dw(32, 64, 1),# -> (64, 16, 16)
+            conv_dw(64, 128, 1),# (128, 16, 16)
+            conv_dw(128, 128, 1),# (128, 16, 16)
+            conv_dw(128, 256, 2),# (256, 8, 8)
+            conv_dw(256, 256, 1),# (256, 8, 8)
+            conv_dw(256, 512, 2),# (512, 4, 4)
+            conv_dw(512, 512, 1),# (512, 4, 4)
+            conv_dw(512, 512, 1),# (512, 4, 4)
+            conv_dw(512, 1024, 2),# (1024, 2, 2)
+            conv_dw(1024, 1024, 1),# (1024, 2, 2)
+            nn.AvgPool2d(2)
+        )
 
+        self.fc = nn.Linear(1024, 100)
+    
+    def forward(self, x: torch.Tensor):
+        x = self.model(x)
+        x = x.view(-1, 1024)
+        x = self.fc(x)
+        return x
 
 def __init_datset() -> None:
     mean_std = ((0.5074, 0.4867, 0.4411), (0.2011, 0.1987, 0.2025))
     train_transform = tt.Compose([
         tt.RandomHorizontalFlip(),  # 0.5的概率对图片进行水平翻转
-        tt.RandomCrop(32, padding=4, padding_mode='reflect'),  # 最急剪裁，添加噪音，防止模型过拟合
+        # 最急剪裁，添加噪音，防止模型过拟合
+        tt.RandomCrop(32, padding=4, padding_mode='reflect'),
         tt.ToTensor(),
         tt.Normalize(*mean_std)  # 使用ImageNet的均值方差来进行正则化
     ])
@@ -88,19 +117,25 @@ def __init_datset() -> None:
         if not os.path.exists(strPath):
             os.mkdir(strPath)
         print("starting download cifar-100 dataset...")
-        train_dataset = CIFAR100(root=strPath, download=True, transform=train_transform)
-        test_dataset = CIFAR100(root=strPath, download=True, train=False, transform=test_transform)
+        train_dataset = CIFAR100(
+            root=strPath, download=True, transform=train_transform)
+        test_dataset = CIFAR100(
+            root=strPath, download=True, train=False, transform=test_transform)
     else:
         print("loading exist cifar-100 dataset...")
-        train_dataset = CIFAR100(root=strPath, download=False, transform=train_transform)
-        test_dataset = CIFAR100(root=strPath, download=False, transform=test_transform)
+        train_dataset = CIFAR100(
+            root=strPath, download=False, transform=train_transform)
+        test_dataset = CIFAR100(
+            root=strPath, download=False, transform=test_transform)
 
 
 def __init_dataloader() -> None:
     BATCH_SIZE = 128
     global train_dataloader, test_dataloader
-    train_dataloader = DataLoader(train_dataset, BATCH_SIZE, num_workers=4, pin_memory=True, shuffle=True)
-    test_dataloader = DataLoader(test_dataset, BATCH_SIZE, num_workers=4, pin_memory=True)
+    train_dataloader = DataLoader(
+        train_dataset, BATCH_SIZE, num_workers=4, pin_memory=True, shuffle=True)
+    test_dataloader = DataLoader(
+        test_dataset, BATCH_SIZE, num_workers=4, pin_memory=True)
 
 
 def __show_batch(dl: DataLoader) -> None:
@@ -135,6 +170,9 @@ if __name__ == "__main__":
     # __show_batch(train_dataloader)
 
     print(get_device())
+
+    net = MobileNetV1()
+    print(net)
 
     # for image, label in train_dataset:
     #     print("Image shape: ", image.shape)
