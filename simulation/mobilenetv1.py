@@ -24,7 +24,6 @@ train_dataloader: DataLoader = None
 test_dataloader: DataLoader = None
 
 
-
 class BaseModel(nn.Module):
 
     def training_step(self, batch):
@@ -39,6 +38,11 @@ class BaseModel(nn.Module):
         loss = F.cross_entropy(out, labels)
         acc = accuracy(out, labels)
         return {'val_loss': loss.detach(), 'val_acc': acc}
+
+    def validation_epoch_end(self, outputs):
+        '''
+        '''
+        batch_losses = [loss['val_loss'] for loss in outputs]
 
 
 class MobileNetV1(nn.Module):
