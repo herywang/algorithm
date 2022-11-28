@@ -76,27 +76,28 @@ class MobileNetV1(nn.Module):
 
         # input image size: (3 32 32)
         self.model = nn.Sequential(
-            conv_bn(3, 32, 2),# -> (32, 16, 16)
-            conv_dw(32, 64, 1),# -> (64, 16, 16)
-            conv_dw(64, 128, 1),# (128, 16, 16)
-            conv_dw(128, 128, 1),# (128, 16, 16)
-            conv_dw(128, 256, 2),# (256, 8, 8)
-            conv_dw(256, 256, 1),# (256, 8, 8)
-            conv_dw(256, 512, 2),# (512, 4, 4)
-            conv_dw(512, 512, 1),# (512, 4, 4)
-            conv_dw(512, 512, 1),# (512, 4, 4)
-            conv_dw(512, 1024, 2),# (1024, 2, 2)
-            conv_dw(1024, 1024, 1),# (1024, 2, 2)
+            conv_bn(3, 32, 2),  # -> (32, 16, 16)
+            conv_dw(32, 64, 1),  # -> (64, 16, 16)
+            conv_dw(64, 128, 1),  # (128, 16, 16)
+            conv_dw(128, 128, 1),  # (128, 16, 16)
+            conv_dw(128, 256, 2),  # (256, 8, 8)
+            conv_dw(256, 256, 1),  # (256, 8, 8)
+            conv_dw(256, 512, 2),  # (512, 4, 4)
+            conv_dw(512, 512, 1),  # (512, 4, 4)
+            conv_dw(512, 512, 1),  # (512, 4, 4)
+            conv_dw(512, 1024, 2),  # (1024, 2, 2)
+            conv_dw(1024, 1024, 1),  # (1024, 2, 2)
             nn.AvgPool2d(2)
         )
 
         self.fc = nn.Linear(1024, 100)
-    
+
     def forward(self, x: torch.Tensor):
         x = self.model(x)
         x = x.view(-1, 1024)
         x = self.fc(x)
         return x
+
 
 def __init_datset() -> None:
     mean_std = ((0.5074, 0.4867, 0.4411), (0.2011, 0.1987, 0.2025))
@@ -162,7 +163,6 @@ class ToDeviceLoader:
 
 
 if __name__ == "__main__":
-
     __init_datset()
 
     __init_dataloader()
