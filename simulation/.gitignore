@@ -1,2 +1,6 @@
 .history
 **/.DS_Store
+.idea
+./logs
+.pytest_cache
+__pycache__/
