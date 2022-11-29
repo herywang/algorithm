@@ -1,4 +1,3 @@
-#!/Users/wangheng/app/anaconda3/envs/gym/bin/python
 import time
 
 import torch
@@ -21,7 +20,7 @@ train_transform = None
 test_transform = None
 train_dataset: VisionDataset = None
 test_dataset: VisionDataset = None
-
+device = None
 train_dataloader: DataLoader = None
 test_dataloader: DataLoader = None
 
@@ -38,7 +37,7 @@ def to_device(data: torch.Tensor, device):
     return data.to(device, non_blocking=True)
 
 
-def accuracy(predicted: torch.Tensor, actual: torch.Tensor, topk=(1,)):
+def accuracy(predicted: torch.Tensor, actual: torch.Tensor, topk=(1, )):
     maxk = max(topk)
     batch_size = actual.size(0)
     _, pred = predicted.topk(maxk, 1, True, True)
@@ -72,6 +71,7 @@ def conv_dw(in_channel, out_channel, stride):
 
 
 class AverageMeter(object):
+
     def __init__(self):
         self.val = None
         self.avg = None
@@ -115,11 +115,12 @@ class BaseModel(nn.Module):
         return {'val_loss': loss.item(), 'val_acc': acc.item()}
 
     def epoch_end(self, epoch, result):
-        print("Epoch [{}], last_learning_rate: {:.5f}, train_loss: {:.4f}, val_loss:{:.4f}, val_acc:{:.4f}"
-              .format(epoch, result['lrs'][-1], result['train_loss'], result['val_loss'], result['val_acc']))
+        print("Epoch [{}], last_learning_rate: {:.5f}, train_loss: {:.4f}, val_loss:{:.4f}, val_acc:{:.4f}".format(epoch, result['lrs'][-1], result['train_loss'], result['val_loss'],
+                                                                                                                   result['val_acc']))
 
 
 class NormalNet(BaseModel):
+
     def __init__(self):
         super(NormalNet, self).__init__()
         # input image size: (3,32,32)
@@ -134,8 +135,7 @@ class NormalNet(BaseModel):
             conv_bn(512, 512, 1),
             conv_bn(512, 1024, 2),  # (1024, 2, 2)
             conv_bn(1024, 1024, 1),  # (1024, 2, 2)
-            nn.AvgPool2d(2)
-        )
+            nn.AvgPool2d(2))
         self.fc2 = nn.Linear(1024, 100)
 
     def forward(self, x: torch.Tensor):
@@ -146,6 +146,7 @@ class NormalNet(BaseModel):
 
 
 class MobileNetV1(BaseModel):
+
     def __init__(self) -> None:
         super(MobileNetV1, self).__init__()
 
@@ -162,8 +163,7 @@ class MobileNetV1(BaseModel):
             conv_dw(512, 512, 1),  # (512, 4, 4)
             conv_dw(512, 1024, 2),  # (1024, 2, 2)
             conv_dw(1024, 1024, 1),  # (1024, 2, 2)
-            nn.AvgPool2d(2)
-        )
+            nn.AvgPool2d(2))
         self.fc1 = nn.Linear(1024, 100)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
@@ -196,10 +196,8 @@ def __init_datset() -> None:
         test_dataset = CIFAR100(root=strPath, download=True, train=False, transform=test_transform)
     else:
         print("loading exist cifar-100 dataset...")
-        train_dataset = CIFAR100(
-            root=strPath, download=False, transform=train_transform)
-        test_dataset = CIFAR100(
-            root=strPath, download=False, transform=test_transform)
+        train_dataset = CIFAR100(root=strPath, download=False, transform=train_transform)
+        test_dataset = CIFAR100(root=strPath, download=False, transform=test_transform)
 
 
 def __init_dataloader() -> None:
@@ -222,6 +220,7 @@ def __show_batch(dl: DataLoader) -> None:
 
 
 class ToDeviceLoader:
+
     def __init__(self, data: DataLoader, device) -> None:
         self.data = data
         self.device = device
@@ -231,8 +230,7 @@ class ToDeviceLoader:
             yield to_device(batch, self.device)
 
 
-def evaluate_model_precision(model: nn.Module, test_data_loader: DataLoader, loss_function,
-                             writer: SummaryWriter):
+def evaluate_model_precision(model: nn.Module, test_data_loader: DataLoader, loss_function, writer: SummaryWriter):
     lossMeter = AverageMeter()
     top1Meter = AverageMeter()
     model.eval()
@@ -242,7 +240,7 @@ def evaluate_model_precision(model: nn.Module, test_data_loader: DataLoader, los
         predict = model(x)
         lossValue = loss_function(predict, y)
         # calculating precision 1 and precision 5
-        prec1 = accuracy(predict, y, (1,))
+        prec1 = accuracy(predict, y, (1, ))
         lossMeter.update(lossValue)
         top1Meter.update(prec1)
     writer.add_scalar('acc-top1/test', top1Meter.avg)
@@ -261,8 +259,8 @@ def train(net: nn.Module, lossFunction, optimizer: torch.optim.Optimizer, type: 
         top5Meter.reset()
         net.train()
         for i, (_input, target) in enumerate(train_dataloader):
-            x = torch.autograd.Variable(_input)
-            y = torch.autograd.Variable(target)
+            x = torch.autograd.Variable(_input).to(device)
+            y = torch.autograd.Variable(target).to(device)
             predict = net(x)
             lossValue = lossFunction(predict, y)
             # calculating precision 1 and precision 5
@@ -280,29 +278,28 @@ def train(net: nn.Module, lossFunction, optimizer: torch.optim.Optimizer, type: 
         writer.add_scalar('acc-top5/train', top5Meter.avg)
         # evaluating model precision.
         evaluate_model_precision(net, test_dataloader, lossFunction, writer)
+        print("epoch: ", epoch)
         if epoch % 10 == 0:
             print('Epoch: [{0}][{1}]\t'
                   'Loss {loss.val:.4f} ({loss.avg:.4f})\t'
                   'Prec@1 {top1.val:.3f} ({top1.avg:.3f})\t'
-                  'Prec@5 {top5.val:.3f} ({top5.avg:.3f})'
-                  .format(epoch, epoches, loss=lossMeter, top1=top1Meter, top5=top5Meter))
+                  'Prec@5 {top5.val:.3f} ({top5.avg:.3f})'.format(epoch, epoches, loss=lossMeter, top1=top1Meter, top5=top5Meter))
 
     writer.close()
 
 
 if __name__ == "__main__":
+
     __init_datset()
     __init_dataloader()
     epoches = 1000
 
     # __show_batch(train_dataloader)
 
-    print(get_device())
-
     end = time.time()
 
-    net1 = MobileNetV1()
-    net2 = NormalNet()
+    net1 = MobileNetV1().to(device)
+    net2 = NormalNet().to(device)
     lossFunction1 = torch.nn.CrossEntropyLoss()
     lossFunction2 = torch.nn.CrossEntropyLoss()
     optimizer1 = torch.optim.Adam(net1.parameters())
