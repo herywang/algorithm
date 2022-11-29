@@ -1,6 +1,6 @@
 .history
 **/.DS_Store
 .idea
-./logs
+logs
 .pytest_cache
 __pycache__/

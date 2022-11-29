@@ -73,10 +73,6 @@ def conv_dw(in_channel, out_channel, stride):
 
 class AverageMeter(object):
     def __init__(self):
-        self.val = None
-        self.avg = None
-        self.sum = None
-        self.count = None
         self.reset()
 
     def reset(self):
