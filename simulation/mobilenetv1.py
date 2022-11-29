@@ -99,7 +99,6 @@ class MobileNetV1(nn.Module):
             conv_dw(512, 1024, 2),  # (1024, 2, 2)
             conv_dw(1024, 1024, 1),  # (1024, 2, 2)
             nn.AvgPool2d(2))
-
         self.fc = nn.Linear(1024, 100)
 
     def forward(self, x: torch.Tensor):
@@ -173,7 +172,6 @@ def train(train_dl: DataLoader, test_dl: DataLoader, optimizer: torch.optim.Opti
 
 
 if __name__ == "__main__":
-
     __init_datset()
 
     __init_dataloader()
