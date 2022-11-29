@@ -300,8 +300,9 @@ if __name__ == "__main__":
     print(get_device())
 
     end = time.time()
+    device = get_device()
 
-    net1 = MobileNetV1()
+    net1 = MobileNetV1().to()
     net2 = NormalNet()
     lossFunction1 = torch.nn.CrossEntropyLoss()
     lossFunction2 = torch.nn.CrossEntropyLoss()
