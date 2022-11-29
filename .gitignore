@@ -6,3 +6,8 @@
 .clang-format
 **/.DS_Store
 data
+
+.history
+.clang-format
+**/.DS_Store
+data/
