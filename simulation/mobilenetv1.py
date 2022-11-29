@@ -13,6 +13,7 @@ from torch.utils.data import random_split
 import torchvision.transforms as tt
 import os
 import matplotlib.pyplot as plt
+import torch.optim
 from experiment_util import *
 
 train_transform = None
@@ -22,6 +23,17 @@ test_dataset: VisionDataset = None
 
 train_dataloader: DataLoader = None
 test_dataloader: DataLoader = None
+
+
+class ToDeviceLoader:
+
+    def __init__(self, data: DataLoader, device) -> None:
+        self.data = data
+        self.device = device
+
+    def __iter__(self):
+        for batch in self.data:
+            yield to_device(batch, self.device)
 
 
 class BaseModel(nn.Module):
@@ -47,9 +59,8 @@ class BaseModel(nn.Module):
         return {'val_loss': loss.item(), 'val_acc': acc.item()}
 
     def epoch_end(self, epoch, result):
-        print("Epoch [{}], last_learning_rate: {:.5f}, train_loss: {:.4f}, val_loss:{:.4f}, val_acc:{:.4f}"
-              .format(epoch, result['lrs'][-1], result['train_loss'], result['val_loss'], result['val_acc'])
-              )
+        print("Epoch [{}], last_learning_rate: {:.5f}, train_loss: {:.4f}, val_loss:{:.4f}, val_acc:{:.4f}".format(epoch, result['lrs'][-1], result['train_loss'], result['val_loss'],
+                                                                                                                   result['val_acc']))
 
 
 class MobileNetV1(nn.Module):
@@ -76,27 +87,27 @@ class MobileNetV1(nn.Module):
 
         # input image size: (3 32 32)
         self.model = nn.Sequential(
-            conv_bn(3, 32, 2),# -> (32, 16, 16)
-            conv_dw(32, 64, 1),# -> (64, 16, 16)
-            conv_dw(64, 128, 1),# (128, 16, 16)
-            conv_dw(128, 128, 1),# (128, 16, 16)
-            conv_dw(128, 256, 2),# (256, 8, 8)
-            conv_dw(256, 256, 1),# (256, 8, 8)
-            conv_dw(256, 512, 2),# (512, 4, 4)
-            conv_dw(512, 512, 1),# (512, 4, 4)
-            conv_dw(512, 512, 1),# (512, 4, 4)
-            conv_dw(512, 1024, 2),# (1024, 2, 2)
-            conv_dw(1024, 1024, 1),# (1024, 2, 2)
-            nn.AvgPool2d(2)
-        )
+            conv_bn(3, 32, 2),  # -> (32, 16, 16)
+            conv_dw(32, 64, 1),  # -> (64, 16, 16)
+            conv_dw(64, 128, 1),  # (128, 16, 16)
+            conv_dw(128, 128, 1),  # (128, 16, 16)
+            conv_dw(128, 256, 2),  # (256, 8, 8)
+            conv_dw(256, 256, 1),  # (256, 8, 8)
+            conv_dw(256, 512, 2),  # (512, 4, 4)
+            conv_dw(512, 512, 1),  # (512, 4, 4)
+            conv_dw(512, 512, 1),  # (512, 4, 4)
+            conv_dw(512, 1024, 2),  # (1024, 2, 2)
+            conv_dw(1024, 1024, 1),  # (1024, 2, 2)
+            nn.AvgPool2d(2))
 
         self.fc = nn.Linear(1024, 100)
-    
+
     def forward(self, x: torch.Tensor):
         x = self.model(x)
         x = x.view(-1, 1024)
         x = self.fc(x)
         return x
+
 
 def __init_datset() -> None:
     mean_std = ((0.5074, 0.4867, 0.4411), (0.2011, 0.1987, 0.2025))
@@ -117,25 +128,19 @@ def __init_datset() -> None:
         if not os.path.exists(strPath):
             os.mkdir(strPath)
         print("starting download cifar-100 dataset...")
-        train_dataset = CIFAR100(
-            root=strPath, download=True, transform=train_transform)
-        test_dataset = CIFAR100(
-            root=strPath, download=True, train=False, transform=test_transform)
+        train_dataset = CIFAR100(root=strPath, download=True, transform=train_transform)
+        test_dataset = CIFAR100(root=strPath, download=True, train=False, transform=test_transform)
     else:
         print("loading exist cifar-100 dataset...")
-        train_dataset = CIFAR100(
-            root=strPath, download=False, transform=train_transform)
-        test_dataset = CIFAR100(
-            root=strPath, download=False, transform=test_transform)
+        train_dataset = CIFAR100(root=strPath, download=False, transform=train_transform)
+        test_dataset = CIFAR100(root=strPath, download=False, transform=test_transform)
 
 
 def __init_dataloader() -> None:
     BATCH_SIZE = 128
     global train_dataloader, test_dataloader
-    train_dataloader = DataLoader(
-        train_dataset, BATCH_SIZE, num_workers=4, pin_memory=True, shuffle=True)
-    test_dataloader = DataLoader(
-        test_dataset, BATCH_SIZE, num_workers=4, pin_memory=True)
+    train_dataloader = DataLoader(train_dataset, BATCH_SIZE, num_workers=4, pin_memory=True, shuffle=True)
+    test_dataloader = DataLoader(test_dataset, BATCH_SIZE, num_workers=4, pin_memory=True)
 
 
 def __show_batch(dl: DataLoader) -> None:
@@ -147,18 +152,24 @@ def __show_batch(dl: DataLoader) -> None:
         ax.set_xticks([])
         ax.imshow(make_grid(images[:20], nrow=5).permute(1, 2, 0))
         plt.show()
-        break
+        return
 
 
-class ToDeviceLoader:
+@torch.no_grad()
+def evaluate(model: BaseModel, test_dl: DataLoader) -> dict:
+    model.eval()
+    ouputs = [model.validation_step(batch) for batch in test_dataloader]
+    return model.validation_epoch_end(ouputs)
 
-    def __init__(self, data: DataLoader, device) -> None:
-        self.data = data
-        self.device = device
 
-    def __iter__(self):
-        for batch in self.data:
-            yield to_device(batch, self.device)
+def get_lr(optimizer: torch.optim.Optimizer):
+    for param_group in optimizer.param_groups:
+        return param_group['lr']
+    return None
+
+
+def train(train_dl: DataLoader, test_dl: DataLoader, optimizer: torch.optim.Optimizer, epoch, model: nn.Module):
+    batch_time = AverageMeter()
 
 
 if __name__ == "__main__":
@@ -171,8 +182,9 @@ if __name__ == "__main__":
 
     print(get_device())
 
-    net = MobileNetV1()
-    print(net)
+    model = MobileNetV1()
+    model = to_device(model, get_device())
+    print(model)
 
     # for image, label in train_dataset:
     #     print("Image shape: ", image.shape)

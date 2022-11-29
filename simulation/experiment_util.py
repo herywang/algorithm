@@ -1,4 +1,5 @@
 import torch
+from typing import Union
 
 
 def get_device():
@@ -7,7 +8,7 @@ def get_device():
     return torch.device('cpu')
 
 
-def to_device(data: torch.Tensor, device):
+def to_device(data: Union[torch.Tensor, torch.Module], device):
     if isinstance(data, (list, tuple)):
         return [to_device(x, device) for x in data]
     return data.to(device, non_blocking=True)
