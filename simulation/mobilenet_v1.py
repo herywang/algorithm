@@ -62,7 +62,8 @@ def conv_bn(in_channel, out_channel, stride):
 
 def conv_dw(in_channel, out_channel, stride):
     return nn.Sequential(
-        nn.Conv2d(in_channel, in_channel, 3, stride, 1, groups=in_channel, bias=False),
+        nn.Conv2d(in_channel, in_channel, 3, stride,
+                  1, groups=in_channel, bias=False),
         nn.BatchNorm2d(in_channel),
         nn.ReLU6(inplace=True),
         nn.Conv2d(in_channel, out_channel, 1, 1, 0, bias=False),
@@ -188,8 +189,10 @@ def __init_datset() -> None:
         if not os.path.exists(strPath):
             os.mkdir(strPath)
         print("starting download cifar-100 dataset...")
-        train_dataset = CIFAR100(root=strPath, download=True, transform=train_transform)
-        test_dataset = CIFAR100(root=strPath, download=True, train=False, transform=test_transform)
+        train_dataset = CIFAR100(
+            root=strPath, download=True, transform=train_transform)
+        test_dataset = CIFAR100(
+            root=strPath, download=True, train=False, transform=test_transform)
     else:
         print("loading exist cifar-100 dataset...")
         train_dataset = CIFAR100(
@@ -201,8 +204,10 @@ def __init_datset() -> None:
 def __init_dataloader() -> None:
     BATCH_SIZE = 128
     global train_dataloader, test_dataloader
-    train_dataloader = DataLoader(train_dataset, BATCH_SIZE, num_workers=4, pin_memory=True, shuffle=True)
-    test_dataloader = DataLoader(test_dataset, BATCH_SIZE, num_workers=4, pin_memory=True)
+    train_dataloader = DataLoader(
+        train_dataset, BATCH_SIZE, num_workers=4, pin_memory=True, shuffle=True)
+    test_dataloader = DataLoader(
+        test_dataset, BATCH_SIZE, num_workers=4, pin_memory=True)
 
 
 def __show_batch(dl: DataLoader) -> None:
@@ -298,14 +303,20 @@ if __name__ == "__main__":
     end = time.time()
     device = get_device()
 
-    net1 = MobileNetV1().to()
-    net2 = NormalNet()
+    net1 = MobileNetV1().to(device)
+    net2 = NormalNet().to(device)
     lossFunction1 = torch.nn.CrossEntropyLoss()
     lossFunction2 = torch.nn.CrossEntropyLoss()
     optimizer1 = torch.optim.Adam(net1.parameters())
     optimizer2 = torch.optim.Adam(net2.parameters())
 
-    train(net1, lossFunction1, optimizer1, 'mobilenet', 100)
+    # train(net1, lossFunction1, optimizer1, 'mobilenet', 100)
+    x = torch.randn((1, 3, 32, 32)).to(device)
+    start = time.time()
+    y = net1(x)
+    end = time.time()
+    print(y)
+    print(end-start)
 
 # for image, label in train_dataset:
 #     print("Image shape: ", image.shape)
