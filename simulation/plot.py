@@ -312,6 +312,16 @@ def plot5():
     axs[1, 0].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3')
     axs[1, 0].legend()
 
+    df11 = pd.read_csv('./exp-data/episode-reward-enduro-NORMAL-m=7.csv', header=0, index_col=0)  # A2C
+    df12 = pd.read_csv('./exp-data/episode-reward-enduro-NORMAL-m=5.csv', header=0, index_col=0)  # PPO
+    df13 = pd.read_csv('./exp-data/episode-reward-enduro-NORMAL-m=3.csv', header=0, index_col=0)  # DQN
+    data1 = df11.to_numpy()
+    data2 = df12.to_numpy()
+    data3 = df13.to_numpy()
+    axs[1, 1].plot(data1[:, 0] / 1000., data1[:, 1], color='red', label='m=7')
+    axs[1, 1].plot(data2[:, 0] / 1000., data2[:, 1], color='magenta', label='m=5')
+    axs[1, 1].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3')
+
     # df31 = pd.read_csv('./exp-data/episode-reward-assault-NORMAL-m=7.csv', header=0, index_col=0)
     df32 = pd.read_csv('./exp-data/episode-reward-assault-NORMAL-m=5.csv', header=0, index_col=0)
     df33 = pd.read_csv('./exp-data/episode-reward-assault-NORMAL-m=3.csv', header=0, index_col=0)
