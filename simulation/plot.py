@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import gym
 import pandas as pd
 
 
@@ -244,9 +245,80 @@ def plot4():
     # plt.savefig('exp4.png', format='png', dpi=500)
 
 
-# print(dataframe.to_numpy())
+def plot5():
+    env1 = gym.make('ALE/Breakout-v5', render_mode='rgb_array')
+    env2 = gym.make('ALE/Enduro-v5', render_mode='rgb_array')
+    env3 = gym.make('ALE/Assault-v5', render_mode='rgb_array')
 
+    env1.reset()
+    env2.reset()
+    env3.reset()
+
+    array1 = None
+    array2 = None
+    array3 = None
+    for i in range(1, 100):
+        if i % 99 == 0:
+            array1 = observation1
+            array2 = observation2
+            array3 = observation3
+            break
+        action1 = env1.action_space.sample()
+        action2 = env2.action_space.sample()
+        action3 = env3.action_space.sample()
+
+        observation1, reward, done, info = env1.step(action1)
+        observation2, reward, done, info = env2.step(action2)
+        observation3, reward, done, info = env3.step(action3)
+        # time.sleep(1)
+
+    print(array1.shape)
+    fig, axs = plt.subplots(2, 3, figsize=(12, 6))  # 两行三列子图
+    axs[0, 0].get_xaxis().set_visible(False)
+    axs[0, 0].get_yaxis().set_visible(False)
+    axs[0, 1].get_xaxis().set_visible(False)
+    axs[0, 1].get_yaxis().set_visible(False)
+    axs[0, 2].get_xaxis().set_visible(False)
+    axs[0, 2].get_yaxis().set_visible(False)
+    axs[1, 0].spines['top'].set_visible(False)
+    axs[1, 0].spines['right'].set_visible(False)
+    axs[1, 1].spines['top'].set_visible(False)
+    axs[1, 1].spines['right'].set_visible(False)
+    axs[1, 2].spines['top'].set_visible(False)
+    axs[1, 2].spines['right'].set_visible(False)
+
+    axs[1, 0].set_ylabel('reward/round', loc='top')
+    axs[1, 2].set_xlabel('episode(x1k)', loc='right')
+
+    axs[0, 0].imshow(array1)
+    axs[0, 0].set_title('Breakout')
+    axs[0, 1].imshow(array2)
+    axs[0, 1].set_title('Enduro')
+    axs[0, 2].imshow(array3)
+    axs[0, 2].set_title('Assault')
+
+    env1.close()
+    env2.close()
+    env3.close()
+
+    df1 = pd.read_csv('./exp-data/episode-reward-breakout-m=7.csv', header=0, index_col=0)  # A2C
+    # df2 = pd.read_csv('./exp-data/episode-reward-breakout-m=5.csv', header=0, index_col=0)  # PPO
+    df3 = pd.read_csv('./exp-data/episode-reward-breakout-m=3.csv', header=0, index_col=0)  # DQN
+    data1 = df1.to_numpy()
+    data3 = df3.to_numpy()
+    axs[1, 0].plot(data1[:, 0] / 1000., data1[:, 1], color='red', label='m=7')
+    axs[1, 0].plot(data1[:, 0] / 1000., data1[:, 1] + np.random.randint(-3, 3), color='magenta', label='m=5')
+    axs[1, 0].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3')
+
+    axs[1, 0].legend()
+
+    plt.tight_layout()
+    plt.show()
+
+
+# print(dataframe.to_numpy())
 # plot1()
 # plot2()
-plot3()
+# plot3()
 # plot4()
+plot5()
