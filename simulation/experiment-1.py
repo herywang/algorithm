@@ -73,10 +73,6 @@ def conv_dw(in_channel, out_channel, stride):
 class AverageMeter(object):
 
     def __init__(self):
-        self.val = None
-        self.avg = None
-        self.sum = None
-        self.count = None
         self.reset()
 
     def reset(self):
@@ -203,8 +199,8 @@ def __init_datset() -> None:
 def __init_dataloader() -> None:
     BATCH_SIZE = 128
     global train_dataloader, test_dataloader
-    train_dataloader = DataLoader(train_dataset, BATCH_SIZE, num_workers=4, pin_memory=True, shuffle=True)
-    test_dataloader = DataLoader(test_dataset, BATCH_SIZE, num_workers=4, pin_memory=True)
+    train_dataloader = DataLoader(train_dataset, BATCH_SIZE, num_workers=2, pin_memory=True, shuffle=True)
+    test_dataloader = DataLoader(test_dataset, BATCH_SIZE, num_workers=2, pin_memory=True)
 
 
 def __show_batch(dl: DataLoader) -> None:
@@ -233,18 +229,18 @@ class ToDeviceLoader:
 def evaluate_model_precision(model: nn.Module, test_data_loader: DataLoader, loss_function, writer: SummaryWriter):
     lossMeter = AverageMeter()
     top1Meter = AverageMeter()
-    model.eval()
-    for i, (_input, target) in enumerate(test_data_loader):
-        x = torch.autograd.Variable(_input)
-        y = torch.autograd.Variable(target)
-        predict = model(x)
-        lossValue = loss_function(predict, y)
-        # calculating precision 1 and precision 5
-        prec1 = accuracy(predict, y, (1, ))
-        lossMeter.update(lossValue)
-        top1Meter.update(prec1)
-    writer.add_scalar('acc-top1/test', top1Meter.avg)
-    writer.add_scalar('loss/test', lossMeter.avg)
+    with torch.no_grad():
+        for i, (_input, target) in enumerate(test_data_loader):
+            x = torch.autograd.Variable(_input).to(device)
+            y = torch.autograd.Variable(target).to(device)
+            predict = model(x)
+            lossValue = loss_function(predict, y)
+            # calculating precision 1 and precision 5
+            prec1 = accuracy(predict, y, (1, ))[0]
+            lossMeter.update(lossValue)
+            top1Meter.update(prec1)
+        writer.add_scalar('acc-top1/test', top1Meter.avg)
+        writer.add_scalar('loss/test', lossMeter.avg)
 
 
 def train(net: nn.Module, lossFunction, optimizer: torch.optim.Optimizer, type: str, epoches: int):
@@ -297,7 +293,7 @@ if __name__ == "__main__":
     # __show_batch(train_dataloader)
 
     end = time.time()
-
+    device = get_device()
     net1 = MobileNetV1().to(device)
     net2 = NormalNet().to(device)
     lossFunction1 = torch.nn.CrossEntropyLoss()
