@@ -135,13 +135,15 @@ def train_a2c(envname: str, logdir:str, policy_kwargs:dict=None):
     env = make_atari_env(envname, n_envs=3)
     env = VecFrameStack(env, n_stack=6)
     # , policy_kwargs=policy_kwargs
-    model = A2C('CnnPolicy', env, tensorboard_log=logdir, policy_kwargs=policy_kwargs, device='cuda')
+    if policy_kwargs is None:
+        model = A2C('CnnPolicy', env, tensorboard_log=logdir, device='cuda')
+    else:
+        model = A2C('CnnPolicy', env, tensorboard_log=logdir, policy_kwargs=policy_kwargs, device='cuda')
     model.learn(600_000)
 
 
 if __name__ == '__main__':
-    normal_m3_policy_kwargs = dict(features_extractor_class=NormalCNN3, features_extractor_kwargs=dict(features_dim=64))
-    normal_m3 = Thread(target=train_a2c, args=('ALE/Enduro-v5','./Enduro', normal_m3_policy_kwargs))
+    normal_m3 = Thread(target=train_a2c, args=('ALE/Enduro-v5','./Enduro', None))
     normal_m3.start()
     time.sleep(5)
 
