@@ -272,7 +272,6 @@ def plot5():
         observation3, reward, done, info = env3.step(action3)
         # time.sleep(1)
 
-    print(array1.shape)
     fig, axs = plt.subplots(2, 3, figsize=(12, 6))  # 两行三列子图
     axs[0, 0].get_xaxis().set_visible(False)
     axs[0, 0].get_yaxis().set_visible(False)
@@ -280,14 +279,18 @@ def plot5():
     axs[0, 1].get_yaxis().set_visible(False)
     axs[0, 2].get_xaxis().set_visible(False)
     axs[0, 2].get_yaxis().set_visible(False)
-    axs[1, 0].spines['top'].set_visible(False)
-    axs[1, 0].spines['right'].set_visible(False)
-    axs[1, 1].spines['top'].set_visible(False)
-    axs[1, 1].spines['right'].set_visible(False)
-    axs[1, 2].spines['top'].set_visible(False)
-    axs[1, 2].spines['right'].set_visible(False)
+    # axs[1, 0].spines['top'].set_visible(False)
+    # axs[1, 0].spines['right'].set_visible(False)
+    # axs[1, 1].spines['top'].set_visible(False)
+    # axs[1, 1].spines['right'].set_visible(False)
+    # axs[1, 2].spines['top'].set_visible(False)
+    # axs[1, 2].spines['right'].set_visible(False)
 
-    axs[1, 0].set_ylabel('reward/round', loc='top')
+    axs[1, 0].set_ylabel('reward / round', loc='top')
+    axs[1, 0].set_xlabel('episode(x1k)', loc='right')
+    axs[1, 1].set_ylabel('reward / round', loc='top')
+    axs[1, 1].set_xlabel('episode(x1k)', loc='right')
+    axs[1, 2].set_ylabel('reward / round', loc='top')
     axs[1, 2].set_xlabel('episode(x1k)', loc='right')
 
     axs[0, 0].imshow(array1)
@@ -307,10 +310,9 @@ def plot5():
     data1 = df11.to_numpy()
     data2 = df12.to_numpy()
     data3 = df13.to_numpy()
-    axs[1, 0].plot(data1[:, 0] / 1000., data1[:, 1], color='red', label='m=7')
-    axs[1, 0].plot(data2[:, 0] / 1000., data2[:, 1], color='magenta', label='m=5')
-    axs[1, 0].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3')
-    axs[1, 0].legend()
+    axs[1, 0].plot(data1[:350, 0] / 1000., data1[:350, 1], color='red', label='m=7', linewidth=0.8)
+    axs[1, 0].plot(data2[:, 0] / 1000., data2[:, 1], color='blue', label='m=5', linewidth=0.8)
+    axs[1, 0].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3', linewidth=0.8)
 
     df11 = pd.read_csv('./exp-data/episode-reward-enduro-NORMAL-m=7.csv', header=0, index_col=0)  # A2C
     df12 = pd.read_csv('./exp-data/episode-reward-enduro-NORMAL-m=5.csv', header=0, index_col=0)  # PPO
@@ -318,20 +320,38 @@ def plot5():
     data1 = df11.to_numpy()
     data2 = df12.to_numpy()
     data3 = df13.to_numpy()
-    axs[1, 1].plot(data1[:, 0] / 1000., data1[:, 1], color='red', label='m=7')
-    axs[1, 1].plot(data2[:, 0] / 1000., data2[:, 1], color='magenta', label='m=5')
-    axs[1, 1].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3')
+    axs[1, 1].plot(data1[:, 0] / 1000., data1[:, 1], color='red', label='m=7', linewidth=0.8)
+    axs[1, 1].plot(data2[:, 0] / 1000., data2[:, 1], color='blue', label='m=5', linewidth=0.8)
+    axs[1, 1].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3', linewidth=0.8)
 
-    # df31 = pd.read_csv('./exp-data/episode-reward-assault-NORMAL-m=7.csv', header=0, index_col=0)
+    df31 = pd.read_csv('./exp-data/episode-reward-assault-NORMAL-m=7.csv', header=0, index_col=0)
     df32 = pd.read_csv('./exp-data/episode-reward-assault-NORMAL-m=5.csv', header=0, index_col=0)
     df33 = pd.read_csv('./exp-data/episode-reward-assault-NORMAL-m=3.csv', header=0, index_col=0)
-    data1 = df32.to_numpy()
+    data1 = df31.to_numpy()
+    data2 = df32.to_numpy()
     data3 = df33.to_numpy()
-    axs[1, 2].plot(data1[:, 0] / 1000., data1[:, 1], color='red', label='m=7')
-    axs[1, 2].plot(data1[:, 0] / 1000., data1[:, 1] + np.random.randint(-3, 3), color='magenta', label='m=5')
-    axs[1, 2].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3')
+    axs[1, 2].plot(data1[:, 0] / 1000., data1[:, 1], color='red', label='m=7', linewidth=0.8)
+    axs[1, 2].plot(data2[:, 0] / 1000., data2[:, 1], color='blue', label='m=5', linewidth=0.8)
+    axs[1, 2].plot(data3[:, 0] / 1000., data3[:, 1], color='green', label='m=3', linewidth=0.8)
 
+    axs[1, 2].legend()
     plt.tight_layout()
+    plt.show()
+    fig.savefig('exp5.svg', format='svg')
+
+
+def plot6():
+    # 绘制NAST结果模型在边缘计算设备上的表现
+    fig, axes = plt.subplots(1, 2, figsize=(6, 12))
+    axes[0, 0].set_xlabel("Layer Num")
+    axes[0, 0].scatter()
+    # plt.xlabel('Process Type', loc='right')
+    # plt.ylabel('Latency', loc='top')
+    # plt.scatter(pyramid[:, 0], pyramid[:, 1], label='Pyramid', color='black', marker='d')
+    # plt.scatter(densenet[:, 0], densenet[:, 1], label='DenseNet', color='m', marker='3')
+    # plt.scatter(resnet[:, 0], resnet[:, 1], label='ResNet', color='c', marker='p')
+    # plt.scatter(normal[:, 0], normal[:, 1], label='Normal', color='r', marker='^')
+    # plt.scatter(depthwise[:, 0], depthwise[:, 1], label='DepthWise', color='g', marker='.')
     plt.show()
 
 
