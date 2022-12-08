@@ -1,10 +1,10 @@
 import gym
 
-from stable_baselines3 import DQN
+from stable_baselines3 import DQN, PPO
 
-env = gym.make("CartPole-v1")
+env = gym.make("LunarLander-v2")
 
-model = DQN("MlpPolicy", env, verbose=1, tensorboard_log='CartPole')
+model = PPO("MlpPolicy", env, tensorboard_log='LunarLander')
 model.learn(total_timesteps=1000000)
 # model.save("dqn_cartpole")
 
