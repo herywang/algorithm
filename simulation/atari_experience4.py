@@ -10,7 +10,6 @@ model.learn(total_timesteps=1000000)
 # model.save("dqn_cartpole")
 
 # del model  # remove to demonstrate saving and loading
-
 # model = DQN.load("dqn_cartpole")
 
 # obs = env.reset()
