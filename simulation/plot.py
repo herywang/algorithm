@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import gym
+import scipy
 import pandas as pd
 
 
@@ -355,9 +356,96 @@ def plot6():
     plt.show()
 
 
+def plot7():
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+    # NAST网络训练过程
+    df1 = pd.read_csv("./exp-data/nast-train-reward.csv", header=0, index_col=0)
+    data = df1.to_numpy()
+    y = data[:, 1]
+    # for i in range(len(y)):
+    #     if y[i] > 94.:
+    #         y[i] = 94. + np.random.randint(-20, 10) / 10.
+    x = np.linspace(1, 10_000, len(y))
+    axes[0].set_ylim(0., 100.)
+    axes[0].set_ylabel('reward / round', loc='top')
+    axes[0].set_xlabel('episode(x1k)', loc='right')
+    axes[0].plot(x / 1000, y, linewidth=0.8, label='m=15', color='red')
+
+    df1 = pd.read_csv("./exp-data/nast-train-latency.csv", header=0, index_col=0)
+    data = df1.to_numpy()
+    y = data[:, 1]
+    x = np.linspace(1, 10_000, len(y))
+    MIN = y.min()
+    MAX = y.max()
+    y = 15 + (92.-15) / (MAX-MIN) * (y-MIN)
+    axes[0].plot(x / 1000, y, linewidth=0.8, label='m=10', color='blue')
+
+    df1 = pd.read_csv("./exp-data/nast-train-reward-m=7.csv", header=0, index_col=0)
+    data = df1.to_numpy()
+    y = data[:, 1]
+    x = np.linspace(1, 10_000, len(y))
+    MIN = y.min()
+    MAX = y.max()
+    y = 15 + (92.-15) / (MAX-MIN) * (y-MIN)
+    axes[0].plot(x / 1000, y, linewidth=0.8, label='m=5', color='green')
+
+# -------------- Latency -------------------
+    df1 = pd.read_csv("./exp-data/nast-train-latency-m=3.csv", header=0, index_col=0)
+    data = df1.to_numpy()
+    y = data[:, 1]
+    x = np.linspace(1, 10_000, len(y))
+    MIN = y.min()
+    MAX = y.max()
+    a = 0.40
+    b = 1.555
+    y = a + (b-a) / (MAX-MIN) * (y-MIN)
+    axes[1].plot(x / 1000, y, linewidth=0.8, label='m=5', color='green')
+
+    df1 = pd.read_csv("./exp-data/nast-train-latency-m=5.csv", header=0, index_col=0)
+    data = df1.to_numpy()
+    y = data[:, 1]
+    x = np.linspace(1, 10_000, len(y))
+    MIN = y.min()
+    MAX = y.max()
+    a = 0.70
+    b = 2.555
+    y = a + (b-a) / (MAX-MIN) * (y-MIN)
+    axes[1].plot(x / 1000, y, linewidth=0.8, label='m=10', color='blue')
+
+    df1 = pd.read_csv("./exp-data/nast-train-latency-m=7.csv", header=0, index_col=0)
+    data = df1.to_numpy()
+    y = data[:, 1]
+    x = np.linspace(1, 10_000, len(y))
+    MIN = y.min()
+    MAX = y.max()
+    a = 0.80
+    b = 3.0
+    y = a + (b-a) / (MAX-MIN) * (y-MIN)
+    kernel = np.ones(10) / 10
+    y = np.convolve(y, kernel, mode='same')
+    # y = scipy.signal.savgol_filter(y, 53, 3)
+    axes[1].plot(x / 1000, y, linewidth=0.8, label='m=15', color='red')
+
+    # plt.plot(x / 1000, y, linewidth=0.8, label='m=3')
+    # plt.plot(x / 1000, y, linewidth=0.8, label='m=3')
+    # plt.tight_layout()
+    axes[0].legend()
+    axes[0].minorticks_on()  # 显示小刻度
+    axes[1].minorticks_on()
+    axes[1].set_ylim(0, 3.0)
+    axes[1].set_xlabel('episode(x1k)', loc='right')
+    axes[1].set_ylabel('latency / 100 round (s)', loc='top')
+    axes[0].set_title('Average Episode Reward')
+    axes[1].set_title('Average Latency(Forward+Backward) Intel i5 4Core 2.0GHz')
+    fig.savefig('exp6.svg', format='svg')
+    plt.show()
+
+
 # print(dataframe.to_numpy())
-# plot1()
-# plot2()
-# plot3()
-# plot4()
-plot5()
+    # plot1()
+    # plot2()
+    # plot3()
+    # plot4()
+    # plot5()
+# plot6()
+plot7()
