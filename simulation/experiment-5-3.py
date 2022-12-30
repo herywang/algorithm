@@ -24,7 +24,7 @@ device = None
 train_dataloader: DataLoader = None
 test_dataloader: DataLoader = None
 
-model_name = 'normalnet5-1229'
+model_name = 'normalnet7-1230'
 
 train_writer = SummaryWriter(model_name + '/train')
 evaluate_writer = SummaryWriter(model_name + '/test')
@@ -336,8 +336,8 @@ if __name__ == "__main__":
     end = time.time()
     device = get_device()
     # net1 = MobileNetV1().to(device)
-    net = NormalNet5().to(device)
-    # net2 = NormalNet7().to(device)
+    # net = NormalNet5().to(device)
+    net = NormalNet7().to(device)
     # net = MobileNetV1().to(device)
     lossFunction1 = torch.nn.CrossEntropyLoss()
     # lossFunction2 = torch.nn.CrossEntropyLoss()
