@@ -239,22 +239,3 @@ if __name__ == "__main__":
     lossFunction1 = torch.nn.CrossEntropyLoss()
     optimizer2 = torch.optim.Adam(net.parameters())
     train(net, lossFunction1, optimizer2, 500)
-
-# for image, label in train_dataset:
-#     print("Image shape: ", image.shape)
-#     print("Image tensor: ", image)
-#     print("Label: ", label)
-#     break
-
-# 统计每个标签数据数量
-# train_class_items = dict()
-# for train_item in train_dataset:
-#     label_index = train_item[1]
-#     label = train_dataset.classes[label_index]
-#     if label not in train_class_items:
-#         train_class_items[label] = 1
-#     else:
-#         train_class_items[label] += 1
-
-# print(train_class_items)
-# print(train_dataset.classes)
