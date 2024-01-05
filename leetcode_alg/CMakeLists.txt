@@ -27,6 +27,8 @@ add_executable(solution24 solution24.cpp)
 
 add_executable(solution26 solution26.cpp)
 
+add_executable(solution28 solution28.cpp)
+
 
 add_executable(solution30 solution30.cpp)
 add_executable(solution31 solution31.cpp)
