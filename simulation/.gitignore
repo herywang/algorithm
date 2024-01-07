@@ -1,0 +1,8 @@
+.history
+**/.DS_Store
+.idea
+logs
+.pytest_cache
+__pycache__/
+cifar10/
+*logs/

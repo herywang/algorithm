@@ -1,0 +1,45 @@
+{ //未配置成功
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "debug-leetcode", // debug 文件名
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake-build-debug/leetcode_alg/${fileBasenameNoExtension}", // 构建后的可执行文件
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "let's make", // 执行调试的前置任务名
+      "MIMode": "lldb", // 必填（与哪个 debugger 通信）
+      "externalConsole": true
+    },
+    {
+      "name": "debug-interview", // debug 文件名
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake-build-debug/interview/${fileBasenameNoExtension}", // 构建后的可执行文件
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "let's make", // 执行调试的前置任务名
+      "MIMode": "lldb", // 必填（与哪个 debugger 通信）
+      "externalConsole": true
+    },
+    {
+      "name": "debug-test", // debug 文件名
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake-build-debug/learn/${fileBasenameNoExtension}", // 构建后的可执行文件
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "let's make", // 执行调试的前置任务名
+      "MIMode": "lldb", // 必填（与哪个 debugger 通信）
+      "externalConsole": true
+    },
+    {
+      "name": "debug-threadpool", // debug 文件名
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake-build-debug/design/test_threadpool", // 构建后的可执行文件
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "let's make", // 执行调试的前置任务名
+      "MIMode": "lldb", // 必填（与哪个 debugger 通信）
+      "externalConsole": true
+    }
+  ]
+}

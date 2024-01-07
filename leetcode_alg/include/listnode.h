@@ -34,4 +34,21 @@ inline void free_list(ListNode* head){
     }
 }
 
+inline ListNode* buildList(vector<int> &array){
+    if (array.size() == 0){
+        return nullptr;
+    }
+    if(array.size() == 1){
+        return new ListNode(array[0], nullptr);
+    }
+    ListNode* head = new ListNode(array[0]);
+    ListNode* p = head;
+    for(int i = 1;i<array.size();i++){
+        ListNode* tmp = new ListNode(array[i], nullptr);
+        p->next = tmp;
+        p = tmp;
+    }
+    return head;
+}
+
 #endif
