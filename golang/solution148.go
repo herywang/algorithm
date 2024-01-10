@@ -72,7 +72,7 @@ func sort(array []int, left int, right int) {
 	sort(array, l+1, right)
 }
 
-func main() {
+func main148() {
 
 	var a []int = []int{5, 7, 2, 4, 6}
 	sort(a, 0, 4)
