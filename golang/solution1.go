@@ -8,6 +8,6 @@ func toSum(nums []int, target int) []int {
 	return nil
 }
 
-func main() {
+func main_() {
 
 }
