@@ -1,11 +1,6 @@
-package main
+package solution
 
 import "fmt"
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
@@ -95,7 +90,7 @@ func printVal(head *ListNode) {
 	fmt.Print(head.Val)
 }
 
-func main() {
+func Solution2() {
 	var l1 *ListNode = &ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: nil}}}
 	var l2 *ListNode = &ListNode{Val: 9, Next: &ListNode{Val: 8, Next: &ListNode{Val: 1, Next: &ListNode{Val: 4}}}}
 
