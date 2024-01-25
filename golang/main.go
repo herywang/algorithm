@@ -7,5 +7,7 @@ func main() {
 	// solution.Solution2()
 	// solution.Solution3()
 	// solution.Solution4()
-	solution.Solution5()
+	// solution.Solution5()
+	// solution.Solution6()
+	solution.Solution7()
 }
