@@ -9,5 +9,6 @@ func main() {
 	// solution.Solution4()
 	// solution.Solution5()
 	// solution.Solution6()
-	solution.Solution7()
+	// solution.Solution7()
+	solution.Solution8()
 }
