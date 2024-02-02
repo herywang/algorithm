@@ -4,6 +4,7 @@ project(algorithm)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_EXPORT_COMPILE_COMMANDS True)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 SET(CMAKE_BUILD_TYPE "Debug")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 
@@ -17,3 +18,4 @@ add_subdirectory(sword_offer)
 add_subdirectory(interview)
 add_subdirectory(learn)
 add_subdirectory(design)
+add_subdirectory(second)

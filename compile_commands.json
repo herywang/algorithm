@@ -1,0 +1,1616 @@
+[
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/mac_algorithm.dir/main.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/main.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/main.cpp",
+  "output": "CMakeFiles/mac_algorithm.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution1.dir/solution1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution1.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution1.dir/solution1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution2.dir/solution2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution2.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution2.dir/solution2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution3.dir/solution3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution3.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution3.dir/solution3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution4.dir/solution4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution4.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution4.dir/solution4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution5.dir/solution5.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution5.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution5.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution5.dir/solution5.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution6.dir/solution6.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution6.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution6.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution6.dir/solution6.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution7.dir/solution7.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution7.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution7.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution7.dir/solution7.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution8.dir/solution8.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution8.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution8.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution8.dir/solution8.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution9.dir/solution9.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution9.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution9.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution9.dir/solution9.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution11.dir/solution11.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution11.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution11.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution11.dir/solution11.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution12.dir/solution12.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution12.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution12.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution12.dir/solution12.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution13.dir/solution13.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution13.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution13.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution13.dir/solution13.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution14.dir/solution14.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution14.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution14.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution14.dir/solution14.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution15.dir/solution15.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution15.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution15.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution15.dir/solution15.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution16.dir/solution16.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution16.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution16.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution16.dir/solution16.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution17.dir/solution17.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution17.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution17.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution17.dir/solution17.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution18.dir/solution18.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution18.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution18.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution18.dir/solution18.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution19.dir/solution19.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution19.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution19.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution19.dir/solution19.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution20.dir/solution20.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution20.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution20.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution20.dir/solution20.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution21.dir/solution21.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution21.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution21.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution21.dir/solution21.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution22.dir/solution22.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution22.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution22.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution22.dir/solution22.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution23.dir/solution23.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution23.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution23.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution23.dir/solution23.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution24.dir/solution24.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution24.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution24.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution24.dir/solution24.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution26.dir/solution26.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution26.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution26.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution26.dir/solution26.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution28.dir/solution28.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution28.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution28.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution28.dir/solution28.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution30.dir/solution30.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution30.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution30.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution30.dir/solution30.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution31.dir/solution31.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution31.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution31.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution31.dir/solution31.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution33.dir/solution33.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution33.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution33.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution33.dir/solution33.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution34.dir/solution34.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution34.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution34.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution34.dir/solution34.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution37.dir/solution37.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution37.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution37.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution37.dir/solution37.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution38.dir/solution38.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution38.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution38.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution38.dir/solution38.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution39.dir/solution39.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution39.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution39.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution39.dir/solution39.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution40.dir/solution40.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution40.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution40.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution40.dir/solution40.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution41.dir/solution41.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution41.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution41.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution41.dir/solution41.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution42.dir/solution42.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution42.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution42.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution42.dir/solution42.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution43.dir/solution43.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution43.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution43.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution43.dir/solution43.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution44.dir/solution44.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution44.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution44.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution44.dir/solution44.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution46.dir/solution46.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution46.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution46.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution46.dir/solution46.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution47.dir/solution47.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution47.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution47.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution47.dir/solution47.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution49.dir/solution49.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution49.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution49.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution49.dir/solution49.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution51.dir/solution51.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution51.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution51.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution51.dir/solution51.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution54.dir/solution54.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution54.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution54.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution54.dir/solution54.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution55.dir/solution55.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution55.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution55.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution55.dir/solution55.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution58.dir/solution58.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution58.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution58.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution58.dir/solution58.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution60.dir/solution60.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution60.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution60.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution60.dir/solution60.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution61.dir/solution61.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution61.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution61.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution61.dir/solution61.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution62.dir/solution62.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution62.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution62.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution62.dir/solution62.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution63.dir/solution63.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution63.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution63.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution63.dir/solution63.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution64.dir/solution64.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution64.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution64.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution64.dir/solution64.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution67.dir/solution67.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution67.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution67.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution67.dir/solution67.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution75.dir/solution75.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution75.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution75.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution75.dir/solution75.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution81.dir/solution81.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution81.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution81.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution81.dir/solution81.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution83.dir/solution83.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution83.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution83.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution83.dir/solution83.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution84.dir/solution84.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution84.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution84.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution84.dir/solution84.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution85.dir/solution85.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution85.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution85.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution85.dir/solution85.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution84_bak.dir/solution84_bak.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution84_bak.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution84_bak.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution84_bak.dir/solution84_bak.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution90.dir/solution90.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution90.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution90.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution90.dir/solution90.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution91.dir/solution91.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution91.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution91.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution91.dir/solution91.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution92.dir/solution92.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution92.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution92.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution92.dir/solution92.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution95.dir/solution95.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution95.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution95.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution95.dir/solution95.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution96.dir/solution96.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution96.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution96.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution96.dir/solution96.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution97.dir/solution97.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution97.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution97.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution97.dir/solution97.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution99.dir/solution99.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution99.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution99.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution99.dir/solution99.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution103.dir/solution103.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution103.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution103.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution103.dir/solution103.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution105.dir/solution105.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution105.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution105.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution105.dir/solution105.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution107.dir/solution107.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution107.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution107.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution107.dir/solution107.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution112.dir/solution112.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution112.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution112.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution112.dir/solution112.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution113.dir/solution113.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution113.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution113.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution113.dir/solution113.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution114.dir/solution114.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution114.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution114.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution114.dir/solution114.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution115.dir/solution115.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution115.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution115.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution115.dir/solution115.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution116.dir/solution116.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution116.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution116.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution116.dir/solution116.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution118.dir/solution118.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution118.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution118.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution118.dir/solution118.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution120.dir/solution120.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution120.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution120.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution120.dir/solution120.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution121.dir/solution121.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution121.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution121.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution121.dir/solution121.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution129.dir/solution129.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution129.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution129.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution129.dir/solution129.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution130.dir/solution130.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution130.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution130.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution130.dir/solution130.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution139.dir/solution139.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution139.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution139.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution139.dir/solution139.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution142.dir/solution142.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution142.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution142.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution142.dir/solution142.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution143.dir/solution143.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution143.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution143.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution143.dir/solution143.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution146.dir/solution146.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution146.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution146.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution146.dir/solution146.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution147.dir/solution147.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution147.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution147.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution147.dir/solution147.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution148.dir/solution148.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution148.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution148.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution148.dir/solution148.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution150.dir/solution150.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution150.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution150.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution150.dir/solution150.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution151.dir/solution151.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution151.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution151.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution151.dir/solution151.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution152.dir/solution152.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution152.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution152.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution152.dir/solution152.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution153.dir/solution153.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution153.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution153.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution153.dir/solution153.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution155.dir/solution155.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution155.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution155.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution155.dir/solution155.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution160.dir/solution160.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution160.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution160.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution160.dir/solution160.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution162.dir/solution162.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution162.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution162.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution162.dir/solution162.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution164.dir/solution164.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution164.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution164.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution164.dir/solution164.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution165.dir/solution165.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution165.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution165.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution165.dir/solution165.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution167.dir/solution167.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution167.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution167.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution167.dir/solution167.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution168.dir/solution168.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution168.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution168.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution168.dir/solution168.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution169.dir/solution169.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution169.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution169.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution169.dir/solution169.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution179.dir/solution179.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution179.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution179.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution179.dir/solution179.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution187.dir/solution187.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution187.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution187.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution187.dir/solution187.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution198.dir/solution198.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution198.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution198.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution198.dir/solution198.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution199.dir/solution199.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution199.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution199.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution199.dir/solution199.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution200.dir/solution200.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution200.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution200.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution200.dir/solution200.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution201.dir/solution201.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution201.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution201.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution201.dir/solution201.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution202.dir/solution202.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution202.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution202.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution202.dir/solution202.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution203.dir/solution203.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution203.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution203.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution203.dir/solution203.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution204.dir/solution204.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution204.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution204.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution204.dir/solution204.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution205.dir/solution205.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution205.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution205.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution205.dir/solution205.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution206.dir/solution206.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution206.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution206.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution206.dir/solution206.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution207.dir/solution207.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution207.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution207.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution207.dir/solution207.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution208.dir/solution208.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution208.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution208.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution208.dir/solution208.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution209.dir/solution209.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution209.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution209.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution209.dir/solution209.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution210.dir/solution210.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution210.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution210.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution210.dir/solution210.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution211.dir/solution211.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution211.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution211.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution211.dir/solution211.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution212.dir/solution212.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution212.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution212.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution212.dir/solution212.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution213.dir/solution213.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution213.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution213.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution213.dir/solution213.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution219.dir/solution219.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution219.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution219.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution219.dir/solution219.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution220.dir/solution220.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution220.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution220.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution220.dir/solution220.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution221.dir/solution221.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution221.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution221.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution221.dir/solution221.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution223.dir/solution223.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution223.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution223.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution223.dir/solution223.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution228.dir/solution228.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution228.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution228.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution228.dir/solution228.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution225.dir/solution225.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution225.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution225.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution225.dir/solution225.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution232.dir/solution232.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution232.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution232.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution232.dir/solution232.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution239.dir/solution239.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution239.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution239.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution239.dir/solution239.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution240.dir/solution240.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution240.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution240.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution240.dir/solution240.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution252.dir/solution252.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution252.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution252.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution252.dir/solution252.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution257.dir/solution257.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution257.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution257.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution257.dir/solution257.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution260.dir/solution260.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution260.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution260.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution260.dir/solution260.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution263.dir/solution263.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution263.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution263.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution263.dir/solution263.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution258.dir/solution258.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution258.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution258.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution258.dir/solution258.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution287.dir/solution287.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution287.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution287.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution287.dir/solution287.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution289.dir/solution289.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution289.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution289.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution289.dir/solution289.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution290.dir/solution290.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution290.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution290.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution290.dir/solution290.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution292.dir/solution292.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution292.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution292.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution292.dir/solution292.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution297.dir/solution297.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution297.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution297.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution297.dir/solution297.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution300.dir/solution300.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution300.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution300.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution300.dir/solution300.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution316.dir/solution316.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution316.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution316.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution316.dir/solution316.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution322.dir/solution322.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution322.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution322.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution322.dir/solution322.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution329.dir/solution329.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution329.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution329.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution329.dir/solution329.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution347.dir/solution347.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution347.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution347.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution347.dir/solution347.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution358.dir/solution358.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution358.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution358.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution358.dir/solution358.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution402.dir/solution402.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution402.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution402.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution402.dir/solution402.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution404.dir/solution404.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution404.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution404.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution404.dir/solution404.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution451.dir/solution451.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution451.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution451.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution451.dir/solution451.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution496.dir/solution496.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution496.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution496.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution496.dir/solution496.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution503.dir/solution503.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution503.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution503.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution503.dir/solution503.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution505.dir/solution505.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution505.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution505.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution505.dir/solution505.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution508.dir/solution508.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution508.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution508.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution508.dir/solution508.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution515.dir/solution515.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution515.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution515.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution515.dir/solution515.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution513.dir/solution513.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution513.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution513.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution513.dir/solution513.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution556.dir/solution556.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution556.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution556.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution556.dir/solution556.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution648.dir/solution648.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution648.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution648.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution648.dir/solution648.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution674.dir/solution674.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution674.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution674.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution674.dir/solution674.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution690.dir/solution690.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution690.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution690.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution690.dir/solution690.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution692.dir/solution692.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution692.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution692.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution692.dir/solution692.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution695.dir/solution695.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution695.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution695.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution695.dir/solution695.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution698.dir/solution698.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution698.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution698.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution698.dir/solution698.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution699.dir/solution699.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution699.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution699.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution699.dir/solution699.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution700.dir/solution700.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution700.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution700.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution700.dir/solution700.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution703.dir/solution703.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution703.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution703.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution703.dir/solution703.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution877.dir/solution877.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution877.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution877.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution877.dir/solution877.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution904.dir/solution904.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution904.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution904.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution904.dir/solution904.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution908.dir/solution908.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution908.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution908.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution908.dir/solution908.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution917.dir/solution917.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution917.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution917.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution917.dir/solution917.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution1089.dir/solution1089.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution1089.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution1089.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution1089.dir/solution1089.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution1277.dir/solution1277.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution1277.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution1277.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution1277.dir/solution1277.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution2259.dir/solution2259.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution2259.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/solution2259.cpp",
+  "output": "leetcode_alg/CMakeFiles/solution2259.dir/solution2259.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/interview1009.dir/interview1009.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/interview1009.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/interview1009.cpp",
+  "output": "leetcode_alg/CMakeFiles/interview1009.dir/interview1009.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/offer010.dir/offer010.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/offer010.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/offer010.cpp",
+  "output": "leetcode_alg/CMakeFiles/offer010.dir/offer010.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/iv0302.dir/iv0302.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/iv0302.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/leetcode_alg/iv0302.cpp",
+  "output": "leetcode_alg/CMakeFiles/iv0302.dir/iv0302.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg1.dir/alg1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg1.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg1.dir/alg1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg2.dir/alg2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg2.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg2.dir/alg2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg3.dir/alg3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg3.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg3.dir/alg3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg4.dir/alg4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg4.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg4.dir/alg4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg5.dir/alg5.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg5.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg5.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg5.dir/alg5.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg6.dir/alg6.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg6.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg6.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg6.dir/alg6.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg7.dir/alg7.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg7.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg7.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg7.dir/alg7.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg8.dir/alg8.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg8.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg8.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg8.dir/alg8.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg9.dir/alg9.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg9.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg9.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg9.dir/alg9.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg10.dir/alg10.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg10.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg10.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg10.dir/alg10.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg11.dir/alg11.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg11.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg11.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg11.dir/alg11.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/alg12.dir/alg12.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg12.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/array/alg12.cpp",
+  "output": "primary_alg/array/CMakeFiles/alg12.dir/alg12.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/salg1.dir/alg1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg1.cpp",
+  "output": "primary_alg/str/CMakeFiles/salg1.dir/alg1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/salg2.dir/alg2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg2.cpp",
+  "output": "primary_alg/str/CMakeFiles/salg2.dir/alg2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/salg3.dir/alg3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg3.cpp",
+  "output": "primary_alg/str/CMakeFiles/salg3.dir/alg3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/salg4.dir/alg4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg4.cpp",
+  "output": "primary_alg/str/CMakeFiles/salg4.dir/alg4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/salg5.dir/alg5.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg5.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/str/alg5.cpp",
+  "output": "primary_alg/str/CMakeFiles/salg5.dir/alg5.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/../../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/lalg1.dir/alg1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/alg1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/alg1.cpp",
+  "output": "primary_alg/linklist/CMakeFiles/lalg1.dir/alg1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/../../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/lalg2.dir/alg2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/alg2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/alg2.cpp",
+  "output": "primary_alg/linklist/CMakeFiles/lalg2.dir/alg2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/../../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/lalg3.dir/alg3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/alg3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/linklist/alg3.cpp",
+  "output": "primary_alg/linklist/CMakeFiles/lalg3.dir/alg3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/talg1.dir/alg1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg1.cpp",
+  "output": "primary_alg/tree/CMakeFiles/talg1.dir/alg1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/talg2.dir/alg2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg2.cpp",
+  "output": "primary_alg/tree/CMakeFiles/talg2.dir/alg2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/talg3.dir/alg3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg3.cpp",
+  "output": "primary_alg/tree/CMakeFiles/talg3.dir/alg3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/talg4.dir/alg4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg4.cpp",
+  "output": "primary_alg/tree/CMakeFiles/talg4.dir/alg4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/talg5.dir/alg5.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg5.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg5.cpp",
+  "output": "primary_alg/tree/CMakeFiles/talg5.dir/alg5.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/talg6.dir/alg6.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg6.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/alg6.cpp",
+  "output": "primary_alg/tree/CMakeFiles/talg6.dir/alg6.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution94.dir/solution94.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/solution94.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/tree/solution94.cpp",
+  "output": "primary_alg/tree/CMakeFiles/solution94.dir/solution94.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/graph",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/dijkstra.dir/dijkstra.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/graph/dijkstra.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/graph/dijkstra.cpp",
+  "output": "primary_alg/graph/CMakeFiles/dijkstra.dir/dijkstra.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/graph",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/dijkstra-base.dir/dijkstra-base.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/graph/dijkstra-base.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/primary_alg/graph/dijkstra-base.cpp",
+  "output": "primary_alg/graph/CMakeFiles/dijkstra-base.dir/dijkstra-base.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/backtrack",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/backtrack/../primary_alg/tree  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/b_solution46.dir/solution46.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/backtrack/solution46.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/backtrack/solution46.cpp",
+  "output": "backtrack/CMakeFiles/b_solution46.dir/solution46.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/backtrack",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/backtrack/../primary_alg/tree  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution100.dir/solution100.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/backtrack/solution100.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/backtrack/solution100.cpp",
+  "output": "backtrack/CMakeFiles/solution100.dir/solution100.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution32.dir/solution32.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/solution32.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/solution32.cpp",
+  "output": "dp/CMakeFiles/solution32.dir/solution32.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/solution198_.dir/solution198.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/solution198.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/solution198.cpp",
+  "output": "dp/CMakeFiles/solution198_.dir/solution198.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/dp_53.dir/dp_solution53.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/dp_solution53.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/dp_solution53.cpp",
+  "output": "dp/CMakeFiles/dp_53.dir/dp_solution53.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/dp_alg1.dir/alg1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/alg1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/alg1.cpp",
+  "output": "dp/CMakeFiles/dp_alg1.dir/alg1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/ZeroOnePack.dir/ZeroOnePack.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/ZeroOnePack.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/ZeroOnePack.cpp",
+  "output": "dp/CMakeFiles/ZeroOnePack.dir/ZeroOnePack.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/backpack1.dir/backpack1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/backpack1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/backpack1.cpp",
+  "output": "dp/CMakeFiles/backpack1.dir/backpack1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/niuke_dp2.dir/niuke_dp2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/niuke_dp2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/niuke_dp2.cpp",
+  "output": "dp/CMakeFiles/niuke_dp2.dir/niuke_dp2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/niuke_dp3.dir/niuke_dp3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/niuke_dp3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/niuke_dp3.cpp",
+  "output": "dp/CMakeFiles/niuke_dp3.dir/niuke_dp3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/dp",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/niuke_dp4.dir/niuke_dp4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/dp/niuke_dp4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/dp/niuke_dp4.cpp",
+  "output": "dp/CMakeFiles/niuke_dp4.dir/niuke_dp4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/sword_offer",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/offer29.dir/offer29.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/sword_offer/offer29.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/sword_offer/offer29.cpp",
+  "output": "sword_offer/CMakeFiles/offer29.dir/offer29.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/sword_offer",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/offer57.dir/offer57.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/sword_offer/offer57.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/sword_offer/offer57.cpp",
+  "output": "sword_offer/CMakeFiles/offer57.dir/offer57.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/sword_offer",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/offer67.dir/offer67.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/sword_offer/offer67.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/sword_offer/offer67.cpp",
+  "output": "sword_offer/CMakeFiles/offer67.dir/offer67.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/nio-1.dir/nio-1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/nio-1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/nio-1.cpp",
+  "output": "interview/CMakeFiles/nio-1.dir/nio-1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/nio-2.dir/nio-2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/nio-2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/nio-2.cpp",
+  "output": "interview/CMakeFiles/nio-2.dir/nio-2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/nio-3.dir/nio-3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/nio-3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/nio-3.cpp",
+  "output": "interview/CMakeFiles/nio-3.dir/nio-3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/nio2-1.dir/nio2-1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/nio2-1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/nio2-1.cpp",
+  "output": "interview/CMakeFiles/nio2-1.dir/nio2-1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/nio2-3.dir/nio2-3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/nio2-3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/nio2-3.cpp",
+  "output": "interview/CMakeFiles/nio2-3.dir/nio2-3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/dj-1.dir/dj-1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/dj-1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/dj-1.cpp",
+  "output": "interview/CMakeFiles/dj-1.dir/dj-1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/dajiang-A-1.dir/dajiang-A-1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/dajiang-A-1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/dajiang-A-1.cpp",
+  "output": "interview/CMakeFiles/dajiang-A-1.dir/dajiang-A-1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/bytedance-1.dir/bytedance-1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/bytedance-1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/bytedance-1.cpp",
+  "output": "interview/CMakeFiles/bytedance-1.dir/bytedance-1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/bytedance-2.dir/bytedance-2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/bytedance-2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/bytedance-2.cpp",
+  "output": "interview/CMakeFiles/bytedance-2.dir/bytedance-2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tencent-1.dir/tencent-1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-1.cpp",
+  "output": "interview/CMakeFiles/tencent-1.dir/tencent-1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tencent-2.dir/tencent-2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-2.cpp",
+  "output": "interview/CMakeFiles/tencent-2.dir/tencent-2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tencent-3.dir/tencent-3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-3.cpp",
+  "output": "interview/CMakeFiles/tencent-3.dir/tencent-3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tencent-4.dir/tencent-4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-4.cpp",
+  "output": "interview/CMakeFiles/tencent-4.dir/tencent-4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/microsoft2.dir/microsoft2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft2.cpp",
+  "output": "interview/CMakeFiles/microsoft2.dir/microsoft2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/microsoft3.dir/microsoft3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft3.cpp",
+  "output": "interview/CMakeFiles/microsoft3.dir/microsoft3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/microsoft4.dir/microsoft4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft4.cpp",
+  "output": "interview/CMakeFiles/microsoft4.dir/microsoft4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/microsoft5.dir/microsoft5.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft5.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft5.cpp",
+  "output": "interview/CMakeFiles/microsoft5.dir/microsoft5.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/microsoft6.dir/microsoft6.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft6.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/microsoft6.cpp",
+  "output": "interview/CMakeFiles/microsoft6.dir/microsoft6.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/xvchenxi.dir/xvchenxi.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/xvchenxi.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/xvchenxi.cpp",
+  "output": "interview/CMakeFiles/xvchenxi.dir/xvchenxi.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/huawei2.dir/huawei2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei2.cpp",
+  "output": "interview/CMakeFiles/huawei2.dir/huawei2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/huawei3.dir/huawei3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei3.cpp",
+  "output": "interview/CMakeFiles/huawei3.dir/huawei3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/huawei_zc.dir/huawei_zc.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei_zc.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei_zc.cpp",
+  "output": "interview/CMakeFiles/huawei_zc.dir/huawei_zc.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/huawei_zc2.dir/huawei_zc2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei_zc2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei_zc2.cpp",
+  "output": "interview/CMakeFiles/huawei_zc2.dir/huawei_zc2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/huawei_zc3.dir/huawei_zc3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei_zc3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/huawei_zc3.cpp",
+  "output": "interview/CMakeFiles/huawei_zc3.dir/huawei_zc3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/3601.dir/3601.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/3601.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/3601.cpp",
+  "output": "interview/CMakeFiles/3601.dir/3601.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/netease1_1.dir/netease1_1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/netease1_1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/netease1_1.cpp",
+  "output": "interview/CMakeFiles/netease1_1.dir/netease1_1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/netease2.dir/netease2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/netease2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/netease2.cpp",
+  "output": "interview/CMakeFiles/netease2.dir/netease2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/netease_f1.dir/netease_f1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/netease_f1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/netease_f1.cpp",
+  "output": "interview/CMakeFiles/netease_f1.dir/netease_f1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/netease_f2.dir/netease_f2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/netease_f2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/netease_f2.cpp",
+  "output": "interview/CMakeFiles/netease_f2.dir/netease_f2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/netease_f3.dir/netease_f3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/netease_f3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/netease_f3.cpp",
+  "output": "interview/CMakeFiles/netease_f3.dir/netease_f3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/interview-12.dir/interview-12.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/interview-12.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/interview-12.cpp",
+  "output": "interview/CMakeFiles/interview-12.dir/interview-12.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/redbook.dir/redbook.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/redbook.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/redbook.cpp",
+  "output": "interview/CMakeFiles/redbook.dir/redbook.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/redbook1.dir/redbook1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/redbook1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/redbook1.cpp",
+  "output": "interview/CMakeFiles/redbook1.dir/redbook1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/redbook3.dir/redbook3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/redbook3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/redbook3.cpp",
+  "output": "interview/CMakeFiles/redbook3.dir/redbook3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/duxiaoman1.dir/duxiaoman1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/duxiaoman1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/duxiaoman1.cpp",
+  "output": "interview/CMakeFiles/duxiaoman1.dir/duxiaoman1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tianyiyun1.dir/tianyiyun1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tianyiyun1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tianyiyun1.cpp",
+  "output": "interview/CMakeFiles/tianyiyun1.dir/tianyiyun1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tianyiyun2.dir/tianyiyun2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tianyiyun2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tianyiyun2.cpp",
+  "output": "interview/CMakeFiles/tianyiyun2.dir/tianyiyun2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tianyiyun3.dir/tianyiyun3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tianyiyun3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tianyiyun3.cpp",
+  "output": "interview/CMakeFiles/tianyiyun3.dir/tianyiyun3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tencent-11.dir/tencent-11.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-11.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-11.cpp",
+  "output": "interview/CMakeFiles/tencent-11.dir/tencent-11.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/ponyma1.dir/ponyma1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma1.cpp",
+  "output": "interview/CMakeFiles/ponyma1.dir/ponyma1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/ponyma2.dir/ponyma2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma2.cpp",
+  "output": "interview/CMakeFiles/ponyma2.dir/ponyma2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/ponyma3.dir/ponyma3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma3.cpp",
+  "output": "interview/CMakeFiles/ponyma3.dir/ponyma3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/ponyma4.dir/ponyma4.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma4.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/ponyma4.cpp",
+  "output": "interview/CMakeFiles/ponyma4.dir/ponyma4.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/huaweifc1.dir/huaweifc1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/huaweifc1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/huaweifc1.cpp",
+  "output": "interview/CMakeFiles/huaweifc1.dir/huaweifc1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tme2.dir/tme2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tme2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tme2.cpp",
+  "output": "interview/CMakeFiles/tme2.dir/tme2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/shenxinfu1.dir/shenxinfu1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/shenxinfu1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/shenxinfu1.cpp",
+  "output": "interview/CMakeFiles/shenxinfu1.dir/shenxinfu1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/shenxinfu3.dir/shenxinfu3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/shenxinfu3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/shenxinfu3.cpp",
+  "output": "interview/CMakeFiles/shenxinfu3.dir/shenxinfu3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/shenxinfu2.dir/shenxinfu2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/shenxinfu2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/shenxinfu2.cpp",
+  "output": "interview/CMakeFiles/shenxinfu2.dir/shenxinfu2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tencent11.dir/tencent11.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent11.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent11.cpp",
+  "output": "interview/CMakeFiles/tencent11.dir/tencent11.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/tencent-test.dir/tencent-test.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-test.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/tencent-test.cpp",
+  "output": "interview/CMakeFiles/tencent-test.dir/tencent-test.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/thoughtworks.dir/thoughtworks.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/thoughtworks.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/thoughtworks.cpp",
+  "output": "interview/CMakeFiles/thoughtworks.dir/thoughtworks.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/zhongxin.dir/zhongxin.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/zhongxin.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/zhongxin.cpp",
+  "output": "interview/CMakeFiles/zhongxin.dir/zhongxin.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/zhongxin2.dir/zhongxin2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/zhongxin2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/zhongxin2.cpp",
+  "output": "interview/CMakeFiles/zhongxin2.dir/zhongxin2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/zhongxin3.dir/zhongxin3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/zhongxin3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/zhongxin3.cpp",
+  "output": "interview/CMakeFiles/zhongxin3.dir/zhongxin3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/maojiahui2.dir/maojiahui2.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/maojiahui2.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/maojiahui2.cpp",
+  "output": "interview/CMakeFiles/maojiahui2.dir/maojiahui2.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/interview",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include -I/Users/wangheng/workspace/clionworkspace/algorithm/interview/../leetcode_alg/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/zhangchi3.dir/zhangchi3.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/interview/zhangchi3.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/interview/zhangchi3.cpp",
+  "output": "interview/CMakeFiles/zhangchi3.dir/zhangchi3.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/learn",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/test1.dir/test1.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/learn/test1.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/learn/test1.cpp",
+  "output": "learn/CMakeFiles/test1.dir/test1.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/design",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/test_threadpool.dir/test_threadpool.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/design/test_threadpool.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/design/test_threadpool.cpp",
+  "output": "design/CMakeFiles/test_threadpool.dir/test_threadpool.cpp.o"
+},
+{
+  "directory": "/Users/wangheng/workspace/clionworkspace/algorithm/second",
+  "command": "/usr/local/opt/llvm/bin/clang++  -I/Users/wangheng/workspace/clionworkspace/algorithm/include  -g -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/second_solution15.dir/solution15.cpp.o -c /Users/wangheng/workspace/clionworkspace/algorithm/second/solution15.cpp",
+  "file": "/Users/wangheng/workspace/clionworkspace/algorithm/second/solution15.cpp",
+  "output": "second/CMakeFiles/second_solution15.dir/solution15.cpp.o"
+}
+]
