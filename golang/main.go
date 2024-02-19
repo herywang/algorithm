@@ -30,8 +30,10 @@ func main() {
 	// solution.Solution24()
 	// solution.Solution26()
 	// solution.Solution27()
+	// solution.Solution31()
 
-	solution.Solution53()
+	// solution.Solution53()
+	solution.Solution153()
 
 	// competition.Competition3028()
 }
