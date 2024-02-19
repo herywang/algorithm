@@ -1,6 +1,8 @@
 package main
 
-import "herywang.com/v2/solution"
+import (
+	"herywang.com/v2/solution"
+)
 
 func main() {
 
@@ -22,5 +24,14 @@ func main() {
 	// solution.Solution17()
 	// solution.Solution18()
 	// solution.Solution19()
-	solution.Solution20()
+	// solution.Solution20()
+	// solution.Solution21()
+	// solution.Solution22()
+	// solution.Solution24()
+	// solution.Solution26()
+	// solution.Solution27()
+
+	solution.Solution53()
+
+	// competition.Competition3028()
 }
