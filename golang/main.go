@@ -33,7 +33,10 @@ func main() {
 	// solution.Solution31()
 
 	// solution.Solution53()
-	solution.Solution153()
+	// solution.Solution153()
+	// solution.Solution223()
+	// solution.Solution695()
+	solution.Solution827()
 
 	// competition.Competition3028()
 }
