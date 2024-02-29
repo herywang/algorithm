@@ -31,10 +31,21 @@ func main() {
 	// solution.Solution26()
 	// solution.Solution27()
 	// solution.Solution31()
+	// 组合数总和1
+	// solution.Solution39()
+	// 组合数总和2
+	// solution.Solution40()
+	// 全排列
+	solution.Solution46()
+	// 跳跃游戏2
+	// solution.Solution45()
 
 	// solution.Solution53()
+	// 跳跃游戏1
+	// solution.Solution55()
 	// solution.Solution153()
-	solution.Solution200()
+	// solution.Solution199()
+	// solution.Solution200()
 	// solution.Solution223()
 	// solution.Solution463()
 	// solution.Solution695()
