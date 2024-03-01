@@ -1,8 +1,6 @@
 package main
 
-import (
-	"herywang.com/v2/solution"
-)
+import "herywang.com/v2/solution"
 
 func main() {
 
@@ -36,13 +34,30 @@ func main() {
 	// 组合数总和2
 	// solution.Solution40()
 	// 全排列
-	solution.Solution46()
+	// solution.Solution46()
+	// 全排列II
+	// solution.Solution47()
+	// 旋转图像
+	// solution.Solution48()
 	// 跳跃游戏2
 	// solution.Solution45()
 
 	// solution.Solution53()
 	// 跳跃游戏1
 	// solution.Solution55()
+	// 合并区间
+	// solution.Solution56()
+	// 旋转矩阵
+	// solution.Solution59()
+	// 排列序列
+	solution.Solution60()
+	// 旋转链表
+	// solution.Solution61()
+	// 不同路径 （动态规划）
+	// solution.Solution62()
+	// 不同路径（有障碍物）
+	// solution.Solution63()
+
 	// solution.Solution153()
 	// solution.Solution199()
 	// solution.Solution200()
