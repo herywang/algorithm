@@ -50,13 +50,23 @@ func main() {
 	// 旋转矩阵
 	// solution.Solution59()
 	// 排列序列
-	solution.Solution60()
+	// solution.Solution60()
 	// 旋转链表
 	// solution.Solution61()
 	// 不同路径 （动态规划）
 	// solution.Solution62()
 	// 不同路径（有障碍物）
 	// solution.Solution63()
+	// 最小路径（动态规划）
+	// solution.Solution64()
+	// 简化路径
+	// solution.Solution71()
+	// 编辑距离
+	// solution.Solution72()
+	// 矩阵置0
+	// solution.Solution73()
+	// 搜索二维矩阵
+	solution.Solution74()
 
 	// solution.Solution153()
 	// solution.Solution199()
