@@ -66,8 +66,17 @@ func main() {
 	// 矩阵置0
 	// solution.Solution73()
 	// 搜索二维矩阵
-	solution.Solution74()
-
+	// solution.Solution74()
+	// 颜色分类 - 荷兰旗
+	// solution.Solution75()
+	// 最小覆盖子串 waring 超时了
+	// solution.Solution76()
+	// 组合
+	// solution.Solution77()
+	// 子集
+	// solution.Solution78()
+	// 单词搜索
+	solution.Solution79()
 	// solution.Solution153()
 	// solution.Solution199()
 	// solution.Solution200()
