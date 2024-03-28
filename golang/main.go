@@ -76,11 +76,22 @@ func main() {
 	// 子集
 	// solution.Solution78()
 	// 单词搜索
-	solution.Solution79()
+	// solution.Solution79()
+	// 删除有序数组中的重复项II
+	// solution.Solution80()
+	// solution.Solution81()
+	// 分割链表
+	// solution.Solution86()
+	// 层序遍历二叉树
+	solution.Solution102()
 	// solution.Solution153()
 	// solution.Solution199()
 	// solution.Solution200()
 	// solution.Solution223()
+	// 反转二叉树
+	// solution.Solution226()
+	// 二叉搜索树中第k小的数
+	// solution.Solution230()
 	// solution.Solution463()
 	// solution.Solution695()
 	// solution.Solution827()
