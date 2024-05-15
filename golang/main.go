@@ -1,6 +1,6 @@
 package main
 
-import "herywang.com/v2/solution"
+import "herywang.com/v2/lcr"
 
 func main() {
 
@@ -83,7 +83,7 @@ func main() {
 	// 分割链表
 	// solution.Solution86()
 	// 层序遍历二叉树
-	solution.Solution102()
+	// solution.Solution102()
 	// solution.Solution153()
 	// solution.Solution199()
 	// solution.Solution200()
@@ -97,4 +97,6 @@ func main() {
 	// solution.Solution827()
 
 	// competition.Competition3028()
+
+	lcr.Lcr139()
 }
