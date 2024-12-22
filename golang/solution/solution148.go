@@ -1,13 +1,8 @@
-package main
+package solution
 
 import (
 	"fmt"
 )
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
 
 func sortList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
@@ -52,7 +47,7 @@ func sortList2(head *ListNode) *ListNode {
 	return head
 }
 
-func sort(array []int, left int, right int) {
+func mySort(array []int, left int, right int) {
 	if left >= right {
 		return
 	}
@@ -68,14 +63,14 @@ func sort(array []int, left int, right int) {
 		array[l] = array[r]
 	}
 	array[l] = baseVal
-	sort(array, left, l-1)
-	sort(array, l+1, right)
+	mySort(array, left, l-1)
+	mySort(array, l+1, right)
 }
 
-func main() {
+func main148() {
 
 	var a []int = []int{5, 7, 2, 4, 6}
-	sort(a, 0, 4)
+	mySort(a, 0, 4)
 	for ix := 0; ix < 5; ix++ {
 		fmt.Println(a[ix])
 	}

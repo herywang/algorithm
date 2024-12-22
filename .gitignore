@@ -5,3 +5,9 @@
 .clang-format
 **/.DS_Store
 data/
+simulation/**/*.svg
+simulation/**/*.py
+simulation/**/*.csv
+simulation/**/*.0
+simulation/**/*.zip
+.idea/

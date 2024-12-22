@@ -1,0 +1,1 @@
+add_executable(second_solution15 solution15.cpp)
